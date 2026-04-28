@@ -1,0 +1,2977 @@
+[
+  {
+    "id": 1,
+    "name": "이상해씨",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000101.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "6.9kg",
+    "category": "씨앗포켓몬"
+  },
+  {
+    "id": 2,
+    "name": "이상해풀",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000201.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "13.0kg",
+    "category": "씨앗포켓몬"
+  },
+  {
+    "id": 3,
+    "name": "이상해꽃",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000301.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "100.0kg",
+    "category": "씨앗포켓몬"
+  },
+  {
+    "id": 3,
+    "name": "메가이상해꽃",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000302.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "2.4m",
+    "weight": "155.5kg",
+    "category": "씨앗포켓몬"
+  },
+  {
+    "id": 3,
+    "name": "이상해꽃",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000303.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "24.0m~",
+    "weight": "???.?kg",
+    "category": "씨앗포켓몬"
+  },
+  {
+    "id": 4,
+    "name": "파이리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000401.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "8.5kg",
+    "category": "도롱뇽포켓몬"
+  },
+  {
+    "id": 5,
+    "name": "리자드",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000501.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "19.0kg",
+    "category": "화염포켓몬"
+  },
+  {
+    "id": 6,
+    "name": "리자몽",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000601.png",
+    "types": [
+      "불꽃",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "90.5kg",
+    "category": "화염포켓몬"
+  },
+  {
+    "id": 6,
+    "name": "메가리자몽X",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000602.png",
+    "types": [
+      "불꽃",
+      "드래곤"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "110.5kg",
+    "category": "화염포켓몬"
+  },
+  {
+    "id": 6,
+    "name": "메가리자몽Y",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000603.png",
+    "types": [
+      "불꽃",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "100.5kg",
+    "category": "화염포켓몬"
+  },
+  {
+    "id": 6,
+    "name": "리자몽",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000604.png",
+    "types": [
+      "불꽃",
+      "비행"
+    ],
+    "description": "",
+    "height": "28.0m~",
+    "weight": "???.?kg",
+    "category": "화염포켓몬"
+  },
+  {
+    "id": 7,
+    "name": "꼬부기",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000701.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "9.0kg",
+    "category": "꼬마거북포켓몬"
+  },
+  {
+    "id": 8,
+    "name": "어니부기",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000801.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "22.5kg",
+    "category": "거북포켓몬"
+  },
+  {
+    "id": 9,
+    "name": "거북왕",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000901.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "85.5kg",
+    "category": "껍질포켓몬"
+  },
+  {
+    "id": 9,
+    "name": "메가거북왕",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000902.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "101.1kg",
+    "category": "껍질포켓몬"
+  },
+  {
+    "id": 9,
+    "name": "거북왕",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/000903.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "25.0m~",
+    "weight": "???.?kg",
+    "category": "껍질포켓몬"
+  },
+  {
+    "id": 10,
+    "name": "캐터피",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001001.png",
+    "types": [
+      "벌레"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "2.9kg",
+    "category": "애벌레포켓몬"
+  },
+  {
+    "id": 11,
+    "name": "단데기",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001101.png",
+    "types": [
+      "벌레"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "9.9kg",
+    "category": "번데기포켓몬"
+  },
+  {
+    "id": 12,
+    "name": "버터플",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001201.png",
+    "types": [
+      "벌레",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "32.0kg",
+    "category": "나비포켓몬"
+  },
+  {
+    "id": 12,
+    "name": "버터플",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001202.png",
+    "types": [
+      "벌레",
+      "비행"
+    ],
+    "description": "",
+    "height": "17.0m~",
+    "weight": "???.?kg",
+    "category": "나비포켓몬"
+  },
+  {
+    "id": 13,
+    "name": "뿔충이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001301.png",
+    "types": [
+      "벌레",
+      "독"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "3.2kg",
+    "category": "송충이포켓몬"
+  },
+  {
+    "id": 14,
+    "name": "딱충이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001401.png",
+    "types": [
+      "벌레",
+      "독"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "10.0kg",
+    "category": "번데기포켓몬"
+  },
+  {
+    "id": 15,
+    "name": "독침붕",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001501.png",
+    "types": [
+      "벌레",
+      "독"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "29.5kg",
+    "category": "독벌포켓몬"
+  },
+  {
+    "id": 15,
+    "name": "메가독침붕",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001502.png",
+    "types": [
+      "벌레",
+      "독"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "40.5kg",
+    "category": "독벌포켓몬"
+  },
+  {
+    "id": 16,
+    "name": "구구",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001601.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "1.8kg",
+    "category": "아기새포켓몬"
+  },
+  {
+    "id": 17,
+    "name": "피죤",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001701.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "30.0kg",
+    "category": "새포켓몬"
+  },
+  {
+    "id": 18,
+    "name": "피죤투",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001801.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "39.5kg",
+    "category": "새포켓몬"
+  },
+  {
+    "id": 18,
+    "name": "메가피죤투",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001802.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "2.2m",
+    "weight": "50.5kg",
+    "category": "새포켓몬"
+  },
+  {
+    "id": 19,
+    "name": "꼬렛",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001901.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "3.5kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 19,
+    "name": "꼬렛",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/001902.png",
+    "types": [
+      "악",
+      "노말"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "3.8kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 20,
+    "name": "레트라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002001.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "18.5kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 20,
+    "name": "레트라",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002002.png",
+    "types": [
+      "악",
+      "노말"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "25.5kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 21,
+    "name": "깨비참",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002101.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "2.0kg",
+    "category": "아기새포켓몬"
+  },
+  {
+    "id": 22,
+    "name": "깨비드릴조",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002201.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "38.0kg",
+    "category": "부리포켓몬"
+  },
+  {
+    "id": 23,
+    "name": "아보",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002301.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "6.9kg",
+    "category": "뱀포켓몬"
+  },
+  {
+    "id": 24,
+    "name": "아보크",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002401.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "3.5m",
+    "weight": "65.0kg",
+    "category": "코브라포켓몬"
+  },
+  {
+    "id": 25,
+    "name": "피카츄",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002501.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "6.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 25,
+    "name": "피카츄",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002502.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "21.0m~",
+    "weight": "???.?kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 26,
+    "name": "라이츄",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002601.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "30.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 26,
+    "name": "라이츄",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002602.png",
+    "types": [
+      "전기",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "21.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 26,
+    "name": "메가라이츄X",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002603.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "38.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 26,
+    "name": "메가라이츄Y",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002604.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "26.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 27,
+    "name": "모래두지",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002701.png",
+    "types": [
+      "땅"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "12.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 27,
+    "name": "모래두지",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002702.png",
+    "types": [
+      "얼음",
+      "강철"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "40.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 28,
+    "name": "고지",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002801.png",
+    "types": [
+      "땅"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "29.5kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 28,
+    "name": "고지",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002802.png",
+    "types": [
+      "얼음",
+      "강철"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "55.0kg",
+    "category": "쥐포켓몬"
+  },
+  {
+    "id": 29,
+    "name": "니드런♀",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/002901.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "7.0kg",
+    "category": "독침포켓몬"
+  },
+  {
+    "id": 30,
+    "name": "니드리나",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003001.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "20.0kg",
+    "category": "독침포켓몬"
+  },
+  {
+    "id": 31,
+    "name": "니드퀸",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003101.png",
+    "types": [
+      "독",
+      "땅"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "60.0kg",
+    "category": "드릴포켓몬"
+  },
+  {
+    "id": 32,
+    "name": "니드런♂",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003201.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "9.0kg",
+    "category": "독침포켓몬"
+  },
+  {
+    "id": 33,
+    "name": "니드리노",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003301.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "0.9m",
+    "weight": "19.5kg",
+    "category": "독침포켓몬"
+  },
+  {
+    "id": 34,
+    "name": "니드킹",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003401.png",
+    "types": [
+      "독",
+      "땅"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "62.0kg",
+    "category": "드릴포켓몬"
+  },
+  {
+    "id": 35,
+    "name": "삐삐",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003501.png",
+    "types": [
+      "페어리"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "7.5kg",
+    "category": "요정포켓몬"
+  },
+  {
+    "id": 36,
+    "name": "픽시",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003601.png",
+    "types": [
+      "페어리"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "40.0kg",
+    "category": "요정포켓몬"
+  },
+  {
+    "id": 36,
+    "name": "메가픽시",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003602.png",
+    "types": [
+      "페어리",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "42.3kg",
+    "category": "요정포켓몬"
+  },
+  {
+    "id": 37,
+    "name": "식스테일",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003701.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "9.9kg",
+    "category": "여우포켓몬"
+  },
+  {
+    "id": 37,
+    "name": "식스테일",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003702.png",
+    "types": [
+      "얼음"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "9.9kg",
+    "category": "여우포켓몬"
+  },
+  {
+    "id": 38,
+    "name": "나인테일",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003801.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "19.9kg",
+    "category": "여우포켓몬"
+  },
+  {
+    "id": 38,
+    "name": "나인테일",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003802.png",
+    "types": [
+      "얼음",
+      "페어리"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "19.9kg",
+    "category": "여우포켓몬"
+  },
+  {
+    "id": 39,
+    "name": "푸린",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/003901.png",
+    "types": [
+      "노말",
+      "페어리"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "5.5kg",
+    "category": "풍선포켓몬"
+  },
+  {
+    "id": 40,
+    "name": "푸크린",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004001.png",
+    "types": [
+      "노말",
+      "페어리"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "12.0kg",
+    "category": "풍선포켓몬"
+  },
+  {
+    "id": 41,
+    "name": "주뱃",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004101.png",
+    "types": [
+      "독",
+      "비행"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "7.5kg",
+    "category": "박쥐포켓몬"
+  },
+  {
+    "id": 42,
+    "name": "골뱃",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004201.png",
+    "types": [
+      "독",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "55.0kg",
+    "category": "박쥐포켓몬"
+  },
+  {
+    "id": 43,
+    "name": "뚜벅쵸",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004301.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "5.4kg",
+    "category": "잡초포켓몬"
+  },
+  {
+    "id": 44,
+    "name": "냄새꼬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004401.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "8.6kg",
+    "category": "잡초포켓몬"
+  },
+  {
+    "id": 45,
+    "name": "라플레시아",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004501.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "18.6kg",
+    "category": "꽃포켓몬"
+  },
+  {
+    "id": 46,
+    "name": "파라스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004601.png",
+    "types": [
+      "벌레",
+      "풀"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "5.4kg",
+    "category": "버섯포켓몬"
+  },
+  {
+    "id": 47,
+    "name": "파라섹트",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004701.png",
+    "types": [
+      "벌레",
+      "풀"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "29.5kg",
+    "category": "버섯포켓몬"
+  },
+  {
+    "id": 48,
+    "name": "콘팡",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004801.png",
+    "types": [
+      "벌레",
+      "독"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "30.0kg",
+    "category": "곤충포켓몬"
+  },
+  {
+    "id": 49,
+    "name": "도나리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/004901.png",
+    "types": [
+      "벌레",
+      "독"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "12.5kg",
+    "category": "독나방포켓몬"
+  },
+  {
+    "id": 50,
+    "name": "디그다",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005001.png",
+    "types": [
+      "땅"
+    ],
+    "description": "",
+    "height": "0.2m",
+    "weight": "0.8kg",
+    "category": "두더지포켓몬"
+  },
+  {
+    "id": 50,
+    "name": "디그다",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005002.png",
+    "types": [
+      "땅",
+      "강철"
+    ],
+    "description": "",
+    "height": "0.2m",
+    "weight": "1.0kg",
+    "category": "두더지포켓몬"
+  },
+  {
+    "id": 51,
+    "name": "닥트리오",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005101.png",
+    "types": [
+      "땅"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "33.3kg",
+    "category": "두더지포켓몬"
+  },
+  {
+    "id": 51,
+    "name": "닥트리오",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005102.png",
+    "types": [
+      "땅",
+      "강철"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "66.6kg",
+    "category": "두더지포켓몬"
+  },
+  {
+    "id": 52,
+    "name": "나옹",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005201.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "4.2kg",
+    "category": "요괴고양이포켓몬"
+  },
+  {
+    "id": 52,
+    "name": "나옹",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005202.png",
+    "types": [
+      "악"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "4.2kg",
+    "category": "요괴고양이포켓몬"
+  },
+  {
+    "id": 52,
+    "name": "나옹",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005203.png",
+    "types": [
+      "강철"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "7.5kg",
+    "category": "요괴고양이포켓몬"
+  },
+  {
+    "id": 52,
+    "name": "나옹",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005204.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "33.0m~",
+    "weight": "???.?kg",
+    "category": "요괴고양이포켓몬"
+  },
+  {
+    "id": 53,
+    "name": "페르시온",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005301.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "32.0kg",
+    "category": "샴고양이포켓몬"
+  },
+  {
+    "id": 53,
+    "name": "페르시온",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005302.png",
+    "types": [
+      "악"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "33.0kg",
+    "category": "샴고양이포켓몬"
+  },
+  {
+    "id": 54,
+    "name": "고라파덕",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005401.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "19.6kg",
+    "category": "오리포켓몬"
+  },
+  {
+    "id": 55,
+    "name": "골덕",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005501.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "76.6kg",
+    "category": "오리포켓몬"
+  },
+  {
+    "id": 56,
+    "name": "망키",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005601.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "28.0kg",
+    "category": "돈숭이포켓몬"
+  },
+  {
+    "id": 57,
+    "name": "성원숭",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005701.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "32.0kg",
+    "category": "돈숭이포켓몬"
+  },
+  {
+    "id": 58,
+    "name": "가디",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005801.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "19.0kg",
+    "category": "강아지포켓몬"
+  },
+  {
+    "id": 58,
+    "name": "가디",
+    "subtitle": "히스이의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005802.png",
+    "types": [
+      "불꽃",
+      "바위"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "22.7kg",
+    "category": "망보기포켓몬"
+  },
+  {
+    "id": 59,
+    "name": "윈디",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005901.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.9m",
+    "weight": "155.0kg",
+    "category": "전설포켓몬"
+  },
+  {
+    "id": 59,
+    "name": "윈디",
+    "subtitle": "히스이의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/005902.png",
+    "types": [
+      "불꽃",
+      "바위"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "168.0kg",
+    "category": "전설포켓몬"
+  },
+  {
+    "id": 60,
+    "name": "발챙이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006001.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "12.4kg",
+    "category": "올챙이포켓몬"
+  },
+  {
+    "id": 61,
+    "name": "슈륙챙이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006101.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "20.0kg",
+    "category": "올챙이포켓몬"
+  },
+  {
+    "id": 62,
+    "name": "강챙이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006201.png",
+    "types": [
+      "물",
+      "격투"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "54.0kg",
+    "category": "올챙이포켓몬"
+  },
+  {
+    "id": 63,
+    "name": "캐이시",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006301.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "0.9m",
+    "weight": "19.5kg",
+    "category": "초능력포켓몬"
+  },
+  {
+    "id": 64,
+    "name": "윤겔라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006401.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "56.5kg",
+    "category": "초능력포켓몬"
+  },
+  {
+    "id": 65,
+    "name": "후딘",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006501.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "48.0kg",
+    "category": "초능력포켓몬"
+  },
+  {
+    "id": 65,
+    "name": "메가후딘",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006502.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "48.0kg",
+    "category": "초능력포켓몬"
+  },
+  {
+    "id": 66,
+    "name": "알통몬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006601.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "19.5kg",
+    "category": "괴력포켓몬"
+  },
+  {
+    "id": 67,
+    "name": "근육몬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006701.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "70.5kg",
+    "category": "괴력포켓몬"
+  },
+  {
+    "id": 68,
+    "name": "괴력몬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006801.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "130.0kg",
+    "category": "괴력포켓몬"
+  },
+  {
+    "id": 68,
+    "name": "괴력몬",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006802.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "25.0m~",
+    "weight": "???.?kg",
+    "category": "괴력포켓몬"
+  },
+  {
+    "id": 69,
+    "name": "모다피",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/006901.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "4.0kg",
+    "category": "꽃포켓몬"
+  },
+  {
+    "id": 70,
+    "name": "우츠동",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007001.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "6.4kg",
+    "category": "파리잡이포켓몬"
+  },
+  {
+    "id": 71,
+    "name": "우츠보트",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007101.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "15.5kg",
+    "category": "파리잡이포켓몬"
+  },
+  {
+    "id": 71,
+    "name": "메가우츠보트",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007102.png",
+    "types": [
+      "풀",
+      "독"
+    ],
+    "description": "",
+    "height": "4.5m",
+    "weight": "125.5kg",
+    "category": "파리잡이포켓몬"
+  },
+  {
+    "id": 72,
+    "name": "왕눈해",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007201.png",
+    "types": [
+      "물",
+      "독"
+    ],
+    "description": "",
+    "height": "0.9m",
+    "weight": "45.5kg",
+    "category": "해파리포켓몬"
+  },
+  {
+    "id": 73,
+    "name": "독파리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007301.png",
+    "types": [
+      "물",
+      "독"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "55.0kg",
+    "category": "해파리포켓몬"
+  },
+  {
+    "id": 74,
+    "name": "꼬마돌",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007401.png",
+    "types": [
+      "바위",
+      "땅"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "20.0kg",
+    "category": "암석포켓몬"
+  },
+  {
+    "id": 74,
+    "name": "꼬마돌",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007402.png",
+    "types": [
+      "바위",
+      "전기"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "20.3kg",
+    "category": "암석포켓몬"
+  },
+  {
+    "id": 75,
+    "name": "데구리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007501.png",
+    "types": [
+      "바위",
+      "땅"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "105.0kg",
+    "category": "암석포켓몬"
+  },
+  {
+    "id": 75,
+    "name": "데구리",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007502.png",
+    "types": [
+      "바위",
+      "전기"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "110.0kg",
+    "category": "암석포켓몬"
+  },
+  {
+    "id": 76,
+    "name": "딱구리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007601.png",
+    "types": [
+      "바위",
+      "땅"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "300.0kg",
+    "category": "메가톤포켓몬"
+  },
+  {
+    "id": 76,
+    "name": "딱구리",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007602.png",
+    "types": [
+      "바위",
+      "전기"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "316.0kg",
+    "category": "메가톤포켓몬"
+  },
+  {
+    "id": 77,
+    "name": "포니타",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007701.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "30.0kg",
+    "category": "불의말포켓몬"
+  },
+  {
+    "id": 77,
+    "name": "포니타",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007702.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "24.0kg",
+    "category": "일각포켓몬"
+  },
+  {
+    "id": 78,
+    "name": "날쌩마",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007801.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "95.0kg",
+    "category": "불의말포켓몬"
+  },
+  {
+    "id": 78,
+    "name": "날쌩마",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007802.png",
+    "types": [
+      "에스퍼",
+      "페어리"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "80.0kg",
+    "category": "일각포켓몬"
+  },
+  {
+    "id": 79,
+    "name": "야돈",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007901.png",
+    "types": [
+      "물",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "36.0kg",
+    "category": "얼간이포켓몬"
+  },
+  {
+    "id": 79,
+    "name": "야돈",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/007902.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "36.0kg",
+    "category": "얼간이포켓몬"
+  },
+  {
+    "id": 80,
+    "name": "야도란",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008001.png",
+    "types": [
+      "물",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "78.5kg",
+    "category": "기생포켓몬"
+  },
+  {
+    "id": 80,
+    "name": "메가야도란",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008002.png",
+    "types": [
+      "물",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "120.0kg",
+    "category": "기생포켓몬"
+  },
+  {
+    "id": 80,
+    "name": "야도란",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008003.png",
+    "types": [
+      "독",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "70.5kg",
+    "category": "기생포켓몬"
+  },
+  {
+    "id": 81,
+    "name": "코일",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008101.png",
+    "types": [
+      "전기",
+      "강철"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "6.0kg",
+    "category": "자석포켓몬"
+  },
+  {
+    "id": 82,
+    "name": "레어코일",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008201.png",
+    "types": [
+      "전기",
+      "강철"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "60.0kg",
+    "category": "자석포켓몬"
+  },
+  {
+    "id": 83,
+    "name": "파오리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008301.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "15.0kg",
+    "category": "청둥오리포켓몬"
+  },
+  {
+    "id": 83,
+    "name": "파오리",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008302.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "42.0kg",
+    "category": "청둥오리포켓몬"
+  },
+  {
+    "id": 84,
+    "name": "두두",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008401.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "39.2kg",
+    "category": "쌍둥이새포켓몬"
+  },
+  {
+    "id": 85,
+    "name": "두트리오",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008501.png",
+    "types": [
+      "노말",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.8m",
+    "weight": "85.2kg",
+    "category": "세쌍둥이새포켓몬"
+  },
+  {
+    "id": 86,
+    "name": "쥬쥬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008601.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "90.0kg",
+    "category": "강치포켓몬"
+  },
+  {
+    "id": 87,
+    "name": "쥬레곤",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008701.png",
+    "types": [
+      "물",
+      "얼음"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "120.0kg",
+    "category": "강치포켓몬"
+  },
+  {
+    "id": 88,
+    "name": "질퍽이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008801.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "0.9m",
+    "weight": "30.0kg",
+    "category": "오물포켓몬"
+  },
+  {
+    "id": 88,
+    "name": "질퍽이",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008802.png",
+    "types": [
+      "독",
+      "악"
+    ],
+    "description": "",
+    "height": "0.7m",
+    "weight": "42.0kg",
+    "category": "오물포켓몬"
+  },
+  {
+    "id": 89,
+    "name": "질뻐기",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008901.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "30.0kg",
+    "category": "오물포켓몬"
+  },
+  {
+    "id": 89,
+    "name": "질뻐기",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/008902.png",
+    "types": [
+      "독",
+      "악"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "52.0kg",
+    "category": "오물포켓몬"
+  },
+  {
+    "id": 90,
+    "name": "셀러",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009001.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "4.0kg",
+    "category": "두조개포켓몬"
+  },
+  {
+    "id": 91,
+    "name": "파르셀",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009101.png",
+    "types": [
+      "물",
+      "얼음"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "132.5kg",
+    "category": "두조개포켓몬"
+  },
+  {
+    "id": 92,
+    "name": "고오스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009201.png",
+    "types": [
+      "고스트",
+      "독"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "0.1kg",
+    "category": "가스포켓몬"
+  },
+  {
+    "id": 93,
+    "name": "고우스트",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009301.png",
+    "types": [
+      "고스트",
+      "독"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "0.1kg",
+    "category": "가스포켓몬"
+  },
+  {
+    "id": 94,
+    "name": "팬텀",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009401.png",
+    "types": [
+      "고스트",
+      "독"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "40.5kg",
+    "category": "그림자포켓몬"
+  },
+  {
+    "id": 94,
+    "name": "메가팬텀",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009402.png",
+    "types": [
+      "고스트",
+      "독"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "40.5kg",
+    "category": "그림자포켓몬"
+  },
+  {
+    "id": 94,
+    "name": "팬텀",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009403.png",
+    "types": [
+      "고스트",
+      "독"
+    ],
+    "description": "",
+    "height": "20.0m~",
+    "weight": "???.?kg",
+    "category": "그림자포켓몬"
+  },
+  {
+    "id": 95,
+    "name": "롱스톤",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009501.png",
+    "types": [
+      "바위",
+      "땅"
+    ],
+    "description": "",
+    "height": "8.8m",
+    "weight": "210.0kg",
+    "category": "돌뱀포켓몬"
+  },
+  {
+    "id": 96,
+    "name": "슬리프",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009601.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "32.4kg",
+    "category": "최면포켓몬"
+  },
+  {
+    "id": 97,
+    "name": "슬리퍼",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009701.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "75.6kg",
+    "category": "최면포켓몬"
+  },
+  {
+    "id": 98,
+    "name": "크랩",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009801.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "6.5kg",
+    "category": "게포켓몬"
+  },
+  {
+    "id": 99,
+    "name": "킹크랩",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009901.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "60.0kg",
+    "category": "집게포켓몬"
+  },
+  {
+    "id": 99,
+    "name": "킹크랩",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/009902.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "19.0m~",
+    "weight": "???.?kg",
+    "category": "집게포켓몬"
+  },
+  {
+    "id": 100,
+    "name": "찌리리공",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010001.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "10.4kg",
+    "category": "볼포켓몬"
+  },
+  {
+    "id": 100,
+    "name": "찌리리공",
+    "subtitle": "히스이의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010002.png",
+    "types": [
+      "전기",
+      "풀"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "13.0kg",
+    "category": "구체포켓몬"
+  },
+  {
+    "id": 101,
+    "name": "붐볼",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010101.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "66.6kg",
+    "category": "볼포켓몬"
+  },
+  {
+    "id": 101,
+    "name": "붐볼",
+    "subtitle": "히스이의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010102.png",
+    "types": [
+      "전기",
+      "풀"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "71.0kg",
+    "category": "구체포켓몬"
+  },
+  {
+    "id": 102,
+    "name": "아라리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010201.png",
+    "types": [
+      "풀",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "2.5kg",
+    "category": "알포켓몬"
+  },
+  {
+    "id": 103,
+    "name": "나시",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010301.png",
+    "types": [
+      "풀",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "120.0kg",
+    "category": "야자열매포켓몬"
+  },
+  {
+    "id": 103,
+    "name": "나시",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010302.png",
+    "types": [
+      "풀",
+      "드래곤"
+    ],
+    "description": "",
+    "height": "10.9m",
+    "weight": "415.6kg",
+    "category": "야자열매포켓몬"
+  },
+  {
+    "id": 104,
+    "name": "탕구리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010401.png",
+    "types": [
+      "땅"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "6.5kg",
+    "category": "고독포켓몬"
+  },
+  {
+    "id": 105,
+    "name": "텅구리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010501.png",
+    "types": [
+      "땅"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "45.0kg",
+    "category": "뼈다귀포켓몬"
+  },
+  {
+    "id": 105,
+    "name": "텅구리",
+    "subtitle": "알로라의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010502.png",
+    "types": [
+      "불꽃",
+      "고스트"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "34.0kg",
+    "category": "뼈다귀포켓몬"
+  },
+  {
+    "id": 106,
+    "name": "시라소몬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010601.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "49.8kg",
+    "category": "킥포켓몬"
+  },
+  {
+    "id": 107,
+    "name": "홍수몬",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010701.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "50.2kg",
+    "category": "펀치포켓몬"
+  },
+  {
+    "id": 108,
+    "name": "내루미",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010801.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "65.5kg",
+    "category": "핥기포켓몬"
+  },
+  {
+    "id": 109,
+    "name": "또가스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/010901.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "1.0kg",
+    "category": "독가스포켓몬"
+  },
+  {
+    "id": 110,
+    "name": "또도가스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011001.png",
+    "types": [
+      "독"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "9.5kg",
+    "category": "독가스포켓몬"
+  },
+  {
+    "id": 110,
+    "name": "또도가스",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011002.png",
+    "types": [
+      "독",
+      "페어리"
+    ],
+    "description": "",
+    "height": "3.0m",
+    "weight": "16.0kg",
+    "category": "독가스포켓몬"
+  },
+  {
+    "id": 111,
+    "name": "뿔카노",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011101.png",
+    "types": [
+      "땅",
+      "바위"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "115.0kg",
+    "category": "뿔포켓몬"
+  },
+  {
+    "id": 112,
+    "name": "코뿌리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011201.png",
+    "types": [
+      "땅",
+      "바위"
+    ],
+    "description": "",
+    "height": "1.9m",
+    "weight": "120.0kg",
+    "category": "드릴포켓몬"
+  },
+  {
+    "id": 113,
+    "name": "럭키",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011301.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "34.6kg",
+    "category": "알포켓몬"
+  },
+  {
+    "id": 114,
+    "name": "덩쿠리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011401.png",
+    "types": [
+      "풀"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "35.0kg",
+    "category": "넝쿨포켓몬"
+  },
+  {
+    "id": 115,
+    "name": "캥카",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011501.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "2.2m",
+    "weight": "80.0kg",
+    "category": "가족포켓몬"
+  },
+  {
+    "id": 115,
+    "name": "메가캥카",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011502.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "2.2m",
+    "weight": "100.0kg",
+    "category": "가족포켓몬"
+  },
+  {
+    "id": 116,
+    "name": "쏘드라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011601.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "8.0kg",
+    "category": "드래곤포켓몬"
+  },
+  {
+    "id": 117,
+    "name": "시드라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011701.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.2m",
+    "weight": "25.0kg",
+    "category": "드래곤포켓몬"
+  },
+  {
+    "id": 118,
+    "name": "콘치",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011801.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.6m",
+    "weight": "15.0kg",
+    "category": "금붕어포켓몬"
+  },
+  {
+    "id": 119,
+    "name": "왕콘치",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/011901.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "39.0kg",
+    "category": "금붕어포켓몬"
+  },
+  {
+    "id": 120,
+    "name": "별가사리",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012001.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "34.5kg",
+    "category": "별포켓몬"
+  },
+  {
+    "id": 121,
+    "name": "아쿠스타",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012101.png",
+    "types": [
+      "물",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "80.0kg",
+    "category": "수수께끼포켓몬"
+  },
+  {
+    "id": 121,
+    "name": "메가아쿠스타",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012102.png",
+    "types": [
+      "물",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "2.3m",
+    "weight": "80.0kg",
+    "category": "수수께끼포켓몬"
+  },
+  {
+    "id": 122,
+    "name": "마임맨",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012201.png",
+    "types": [
+      "에스퍼",
+      "페어리"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "54.5kg",
+    "category": "배리어포켓몬"
+  },
+  {
+    "id": 122,
+    "name": "마임맨",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012202.png",
+    "types": [
+      "얼음",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "56.8kg",
+    "category": "댄스포켓몬"
+  },
+  {
+    "id": 123,
+    "name": "스라크",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012301.png",
+    "types": [
+      "벌레",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "56.0kg",
+    "category": "버마재비포켓몬"
+  },
+  {
+    "id": 124,
+    "name": "루주라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012401.png",
+    "types": [
+      "얼음",
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "40.6kg",
+    "category": "인간형태포켓몬"
+  },
+  {
+    "id": 125,
+    "name": "에레브",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012501.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "1.1m",
+    "weight": "30.0kg",
+    "category": "전기포켓몬"
+  },
+  {
+    "id": 126,
+    "name": "마그마",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012601.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "44.5kg",
+    "category": "불뿜기포켓몬"
+  },
+  {
+    "id": 127,
+    "name": "쁘사이저",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012701.png",
+    "types": [
+      "벌레"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "55.0kg",
+    "category": "뿔집게포켓몬"
+  },
+  {
+    "id": 127,
+    "name": "메가쁘사이저",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012702.png",
+    "types": [
+      "벌레",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "59.0kg",
+    "category": "뿔집게포켓몬"
+  },
+  {
+    "id": 128,
+    "name": "켄타로스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012801.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "88.4kg",
+    "category": "성난소포켓몬"
+  },
+  {
+    "id": 128,
+    "name": "켄타로스",
+    "subtitle": "팔데아의 모습 / 컴뱃종",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012802.png",
+    "types": [
+      "격투"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "115.0kg",
+    "category": "성난소포켓몬"
+  },
+  {
+    "id": 128,
+    "name": "켄타로스",
+    "subtitle": "팔데아의 모습 / 블레이즈종",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012803.png",
+    "types": [
+      "격투",
+      "불꽃"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "85.0kg",
+    "category": "성난소포켓몬"
+  },
+  {
+    "id": 128,
+    "name": "켄타로스",
+    "subtitle": "팔데아의 모습 / 워터종",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012804.png",
+    "types": [
+      "격투",
+      "물"
+    ],
+    "description": "",
+    "height": "1.4m",
+    "weight": "110.0kg",
+    "category": "성난소포켓몬"
+  },
+  {
+    "id": 129,
+    "name": "잉어킹",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/012901.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "0.9m",
+    "weight": "10.0kg",
+    "category": "물고기포켓몬"
+  },
+  {
+    "id": 130,
+    "name": "갸라도스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013001.png",
+    "types": [
+      "물",
+      "비행"
+    ],
+    "description": "",
+    "height": "6.5m",
+    "weight": "235.0kg",
+    "category": "흉악포켓몬"
+  },
+  {
+    "id": 130,
+    "name": "메가갸라도스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013002.png",
+    "types": [
+      "물",
+      "악"
+    ],
+    "description": "",
+    "height": "6.5m",
+    "weight": "305.0kg",
+    "category": "흉악포켓몬"
+  },
+  {
+    "id": 131,
+    "name": "라프라스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013103.png",
+    "types": [
+      "물",
+      "얼음"
+    ],
+    "description": "",
+    "height": "2.5m",
+    "weight": "220.0kg",
+    "category": "탈것포켓몬"
+  },
+  {
+    "id": 131,
+    "name": "라프라스",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013104.png",
+    "types": [
+      "물",
+      "얼음"
+    ],
+    "description": "",
+    "height": "24.0m~",
+    "weight": "???.?kg",
+    "category": "탈것포켓몬"
+  },
+  {
+    "id": 132,
+    "name": "메타몽",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013201.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "4.0kg",
+    "category": "변신포켓몬"
+  },
+  {
+    "id": 133,
+    "name": "이브이",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013301.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "0.3m",
+    "weight": "6.5kg",
+    "category": "진화포켓몬"
+  },
+  {
+    "id": 133,
+    "name": "이브이",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013302.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "18.0m~",
+    "weight": "???.?kg",
+    "category": "진화포켓몬"
+  },
+  {
+    "id": 134,
+    "name": "샤미드",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013401.png",
+    "types": [
+      "물"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "29.0kg",
+    "category": "거품뿜기포켓몬"
+  },
+  {
+    "id": 135,
+    "name": "쥬피썬더",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013501.png",
+    "types": [
+      "전기"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "24.5kg",
+    "category": "번개포켓몬"
+  },
+  {
+    "id": 136,
+    "name": "부스터",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013601.png",
+    "types": [
+      "불꽃"
+    ],
+    "description": "",
+    "height": "0.9m",
+    "weight": "25.0kg",
+    "category": "불꽃포켓몬"
+  },
+  {
+    "id": 137,
+    "name": "폴리곤",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013701.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "0.8m",
+    "weight": "36.5kg",
+    "category": "가상포켓몬"
+  },
+  {
+    "id": 138,
+    "name": "암나이트",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013801.png",
+    "types": [
+      "바위",
+      "물"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "7.5kg",
+    "category": "소용돌이포켓몬"
+  },
+  {
+    "id": 139,
+    "name": "암스타",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/013901.png",
+    "types": [
+      "바위",
+      "물"
+    ],
+    "description": "",
+    "height": "1.0m",
+    "weight": "35.0kg",
+    "category": "소용돌이포켓몬"
+  },
+  {
+    "id": 140,
+    "name": "투구",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014001.png",
+    "types": [
+      "바위",
+      "물"
+    ],
+    "description": "",
+    "height": "0.5m",
+    "weight": "11.5kg",
+    "category": "껍질포켓몬"
+  },
+  {
+    "id": 141,
+    "name": "투구푸스",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014101.png",
+    "types": [
+      "바위",
+      "물"
+    ],
+    "description": "",
+    "height": "1.3m",
+    "weight": "40.5kg",
+    "category": "껍질포켓몬"
+  },
+  {
+    "id": 142,
+    "name": "프테라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014201.png",
+    "types": [
+      "바위",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.8m",
+    "weight": "59.0kg",
+    "category": "화석포켓몬"
+  },
+  {
+    "id": 142,
+    "name": "메가프테라",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014202.png",
+    "types": [
+      "바위",
+      "비행"
+    ],
+    "description": "",
+    "height": "2.1m",
+    "weight": "79.0kg",
+    "category": "화석포켓몬"
+  },
+  {
+    "id": 143,
+    "name": "잠만보",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014301.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "2.1m",
+    "weight": "460.0kg",
+    "category": "졸음포켓몬"
+  },
+  {
+    "id": 143,
+    "name": "잠만보",
+    "subtitle": "거다이맥스의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014302.png",
+    "types": [
+      "노말"
+    ],
+    "description": "",
+    "height": "35.0m~",
+    "weight": "???.?kg",
+    "category": "졸음포켓몬"
+  },
+  {
+    "id": 144,
+    "name": "프리져",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014401.png",
+    "types": [
+      "얼음",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "55.4kg",
+    "category": "냉동포켓몬"
+  },
+  {
+    "id": 144,
+    "name": "프리져",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014402.png",
+    "types": [
+      "에스퍼",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.7m",
+    "weight": "50.9kg",
+    "category": "냉혹포켓몬"
+  },
+  {
+    "id": 145,
+    "name": "썬더",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014501.png",
+    "types": [
+      "전기",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "52.6kg",
+    "category": "전기포켓몬"
+  },
+  {
+    "id": 145,
+    "name": "썬더",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014502.png",
+    "types": [
+      "격투",
+      "비행"
+    ],
+    "description": "",
+    "height": "1.6m",
+    "weight": "58.2kg",
+    "category": "건각포켓몬"
+  },
+  {
+    "id": 146,
+    "name": "파이어",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014601.png",
+    "types": [
+      "불꽃",
+      "비행"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "60.0kg",
+    "category": "화염포켓몬"
+  },
+  {
+    "id": 146,
+    "name": "파이어",
+    "subtitle": "가라르의 모습",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014602.png",
+    "types": [
+      "악",
+      "비행"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "66.0kg",
+    "category": "사악포켓몬"
+  },
+  {
+    "id": 147,
+    "name": "미뇽",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014701.png",
+    "types": [
+      "드래곤"
+    ],
+    "description": "",
+    "height": "1.8m",
+    "weight": "3.3kg",
+    "category": "드래곤포켓몬"
+  },
+  {
+    "id": 148,
+    "name": "신뇽",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014801.png",
+    "types": [
+      "드래곤"
+    ],
+    "description": "",
+    "height": "4.0m",
+    "weight": "16.5kg",
+    "category": "드래곤포켓몬"
+  },
+  {
+    "id": 149,
+    "name": "망나뇽",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014901.png",
+    "types": [
+      "드래곤",
+      "비행"
+    ],
+    "description": "",
+    "height": "2.2m",
+    "weight": "210.0kg",
+    "category": "드래곤포켓몬"
+  },
+  {
+    "id": 149,
+    "name": "메가망나뇽",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/014902.png",
+    "types": [
+      "드래곤",
+      "비행"
+    ],
+    "description": "",
+    "height": "2.2m",
+    "weight": "290.0kg",
+    "category": "드래곤포켓몬"
+  },
+  {
+    "id": 150,
+    "name": "뮤츠",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/015001.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "2.0m",
+    "weight": "122.0kg",
+    "category": "유전자포켓몬"
+  },
+  {
+    "id": 150,
+    "name": "메가뮤츠X",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/015002.png",
+    "types": [
+      "에스퍼",
+      "격투"
+    ],
+    "description": "",
+    "height": "2.3m",
+    "weight": "127.0kg",
+    "category": "유전자포켓몬"
+  },
+  {
+    "id": 150,
+    "name": "메가뮤츠Y",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/015003.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "1.5m",
+    "weight": "33.0kg",
+    "category": "유전자포켓몬"
+  },
+  {
+    "id": 151,
+    "name": "뮤",
+    "subtitle": "",
+    "image": "https://data1.pokemonkorea.co.kr/newdata/pokedex/full/015101.png",
+    "types": [
+      "에스퍼"
+    ],
+    "description": "",
+    "height": "0.4m",
+    "weight": "4.0kg",
+    "category": "신종포켓몬"
+  }
+]

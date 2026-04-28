@@ -1,0 +1,64 @@
+.pokemon-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.search-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 90px;
+  z-index: 40;
+  padding: 10px 0;
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px;
+  border-radius: 50px;
+  width: 100%;
+  max-width: 600px;
+  gap: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-input-container:focus-within {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.search-icon {
+  color: var(--text-secondary);
+}
+
+.search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-family: inherit;
+  width: 100%;
+}
+
+.search-input::placeholder {
+  color: var(--text-secondary);
+  opacity: 0.7;
+}
+
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--text-secondary);
+  font-size: 1.2rem;
+}
