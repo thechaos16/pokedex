@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import type { Pokemon } from '../types/pokemon';
-import { X, ArrowLeft, Ruler, Weight } from 'lucide-react';
+import { X, ArrowLeft, Ruler, Weight, Volume2, Square } from 'lucide-react';
 import './PokemonDetail.css';
 
 interface PokemonDetailProps {
@@ -32,6 +32,37 @@ const typeColorMap: Record<string, string> = {
 export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose }) => {
   const primaryType = pokemon.types[0];
   const color = typeColorMap[primaryType] || 'var(--surface-color-light)';
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  useEffect(() => {
+    // Cleanup speech synthesis when component unmounts
+    return () => {
+      window.speechSynthesis.cancel();
+    };
+  }, []);
+
+  const toggleSpeech = () => {
+    if (isPlaying) {
+      window.speechSynthesis.cancel();
+      setIsPlaying(false);
+    } else {
+      window.speechSynthesis.cancel(); // Cancel any ongoing speech
+      const utterance = new SpeechSynthesisUtterance(pokemon.description);
+      utterance.lang = 'ko-KR';
+      utterance.rate = 1.0;
+      
+      utterance.onend = () => {
+        setIsPlaying(false);
+      };
+      
+      utterance.onerror = () => {
+        setIsPlaying(false);
+      };
+
+      window.speechSynthesis.speak(utterance);
+      setIsPlaying(true);
+    }
+  };
 
   return (
     <div className="pokemon-detail-overlay">
@@ -76,7 +107,14 @@ export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose }
               ))}
             </div>
 
-            <div className="modal-description glass-panel">
+            <div className="modal-description glass-panel" style={{ position: 'relative' }}>
+              <button 
+                onClick={toggleSpeech}
+                className="speech-btn"
+                title="Read Description"
+              >
+                {isPlaying ? <Square size={18} /> : <Volume2 size={18} />}
+              </button>
               <p>{pokemon.description}</p>
             </div>
 
