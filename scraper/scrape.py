@@ -51,8 +51,8 @@ def scrape_pokemon(url_index):
     for t in type_spans:
         types.append(t.text.strip())
         
-    desc_tag = soup.select_one('.bx-txt p.para.descript')
-    desc = desc_tag.text.strip() if desc_tag else ""
+    desc_tag = soup.select_one('p.para.descript')
+    desc_text = desc_tag.text.strip() if desc_tag else ""
     
     height = ""
     weight = ""
@@ -70,6 +70,11 @@ def scrape_pokemon(url_index):
                 weight = val.text.strip()
             elif text == '분류':
                 category = val.text.strip()
+                
+    # Format the description as requested: "Pokemon name, category, type and subtitle. Description"
+    subtitle_str = f" ({subtitle})" if subtitle else ""
+    type_str = ", ".join(types)
+    desc = f"{name}{subtitle_str}, {category}. {type_str} 타입. {desc_text}"
                 
     return {
         "id": pokedex_id,
