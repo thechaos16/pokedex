@@ -3,10 +3,13 @@ import pokemonData from './data/pokemon.json';
 import type { Pokemon } from './types/pokemon';
 import { PokemonGrid } from './components/PokemonGrid';
 import { PokemonDetail } from './components/PokemonDetail';
-import { Database } from 'lucide-react';
+import { CameraTab } from './components/CameraTab';
+import { Database, LayoutGrid, Camera } from 'lucide-react';
 
 function App() {
   const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null);
+  const [activeTab, setActiveTab] = useState<'grid' | 'camera'>('grid');
+  const [autoPlayMode, setAutoPlayMode] = useState(false);
 
   // Parse the data correctly
   const pokemons: Pokemon[] = (pokemonData as any[]).map(p => ({
@@ -34,10 +37,40 @@ function App() {
 
       <main className="main-content">
         <div className="container">
-          <PokemonGrid 
-            pokemons={pokemons} 
-            onPokemonClick={(pokemon) => setSelectedPokemon(pokemon)} 
-          />
+          <div className="tabs-container">
+            <button 
+              className={`tab-btn ${activeTab === 'grid' ? 'active' : ''}`}
+              onClick={() => setActiveTab('grid')}
+            >
+              <LayoutGrid size={20} />
+              <span>Grid</span>
+            </button>
+            <button 
+              className={`tab-btn ${activeTab === 'camera' ? 'active' : ''}`}
+              onClick={() => setActiveTab('camera')}
+            >
+              <Camera size={20} />
+              <span>Camera</span>
+            </button>
+          </div>
+
+          {activeTab === 'grid' ? (
+            <PokemonGrid 
+              pokemons={pokemons} 
+              onPokemonClick={(pokemon) => {
+                setAutoPlayMode(false);
+                setSelectedPokemon(pokemon);
+              }} 
+            />
+          ) : (
+            <CameraTab 
+              pokemons={pokemons} 
+              onClassify={(pokemon) => {
+                setAutoPlayMode(true);
+                setSelectedPokemon(pokemon);
+              }} 
+            />
+          )}
         </div>
       </main>
 
@@ -45,6 +78,7 @@ function App() {
         <PokemonDetail 
           pokemon={selectedPokemon} 
           onClose={() => setSelectedPokemon(null)} 
+          autoPlayTts={autoPlayMode}
         />
       )}
     </>

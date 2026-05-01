@@ -6,6 +6,7 @@ import './PokemonDetail.css';
 interface PokemonDetailProps {
   pokemon: Pokemon;
   onClose: () => void;
+  autoPlayTts?: boolean;
 }
 
 const typeColorMap: Record<string, string> = {
@@ -29,7 +30,7 @@ const typeColorMap: Record<string, string> = {
   '페어리': 'var(--type-fairy)',
 };
 
-export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose }) => {
+export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose, autoPlayTts = false }) => {
   const primaryType = pokemon.types[0];
   const color = typeColorMap[primaryType] || 'var(--surface-color-light)';
   const [isPlaying, setIsPlaying] = useState(false);
@@ -41,28 +42,42 @@ export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose }
     };
   }, []);
 
+  const playSpeech = () => {
+    window.speechSynthesis.cancel(); // Cancel any ongoing speech
+    const utterance = new SpeechSynthesisUtterance(pokemon.description);
+    utterance.lang = 'ko-KR';
+    utterance.rate = 1.0;
+    
+    utterance.onend = () => {
+      setIsPlaying(false);
+    };
+    
+    utterance.onerror = () => {
+      setIsPlaying(false);
+    };
+
+    window.speechSynthesis.speak(utterance);
+    setIsPlaying(true);
+  };
+
   const toggleSpeech = () => {
     if (isPlaying) {
       window.speechSynthesis.cancel();
       setIsPlaying(false);
     } else {
-      window.speechSynthesis.cancel(); // Cancel any ongoing speech
-      const utterance = new SpeechSynthesisUtterance(pokemon.description);
-      utterance.lang = 'ko-KR';
-      utterance.rate = 1.0;
-      
-      utterance.onend = () => {
-        setIsPlaying(false);
-      };
-      
-      utterance.onerror = () => {
-        setIsPlaying(false);
-      };
-
-      window.speechSynthesis.speak(utterance);
-      setIsPlaying(true);
+      playSpeech();
     }
   };
+
+  useEffect(() => {
+    if (autoPlayTts) {
+      // Use a slight delay to allow modal transition
+      const timer = setTimeout(() => {
+        playSpeech();
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [autoPlayTts, pokemon.id]);
 
   return (
     <div className="pokemon-detail-overlay">

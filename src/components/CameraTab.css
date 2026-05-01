@@ -1,0 +1,72 @@
+.camera-tab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.camera-view {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.camera-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.camera-error {
+  padding: 20px;
+  text-align: center;
+  color: var(--type-fire);
+}
+
+.camera-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.capture-btn {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: var(--surface-color-light);
+  border: 4px solid var(--text-primary);
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.capture-btn:hover:not(:disabled) {
+  transform: scale(1.05);
+  background: var(--accent-color);
+  border-color: var(--text-primary);
+}
+
+.capture-btn:active:not(:disabled) {
+  transform: scale(0.95);
+  background: var(--text-primary);
+  color: var(--surface-color);
+}
+
+.capture-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
