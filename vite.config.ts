@@ -28,6 +28,9 @@ export default defineConfig({
             purpose: 'any maskable'
           }
         ]
+      },
+      workbox: {
+        maximumFileSizeToCacheInBytes: 10000000 // 10 MiB to accommodate the embeddings JSON
       }
     })
   ],

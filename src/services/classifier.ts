@@ -107,7 +107,7 @@ export class LivePokemonClassifier implements PokemonClassifier {
       metadata: { pokemonId: r.pokemonId }
     }));
 
-    let imageSrc: string | HTMLImageElement | HTMLCanvasElement = imageElement;
+    let imageSrc: string | HTMLImageElement | HTMLCanvasElement;
     
     // transformers.js does not natively support HTMLVideoElement, so draw it to a canvas first
     if (imageElement instanceof HTMLVideoElement) {
@@ -118,7 +118,11 @@ export class LivePokemonClassifier implements PokemonClassifier {
       if (ctx) {
         ctx.drawImage(imageElement, 0, 0, canvas.width, canvas.height);
         imageSrc = canvas.toDataURL('image/jpeg');
+      } else {
+        throw new Error("Canvas 2D context is not available.");
       }
+    } else {
+      imageSrc = imageElement;
     }
 
     const match = await this.visionClassifier.findClosestMatch(imageSrc, recordsForMatch);
