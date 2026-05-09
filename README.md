@@ -58,15 +58,12 @@ This will fetch the latest Pokémon data and automatically update the `src/data/
 
 ---
 
-## 📷 Future Classification Model
+## 📷 AI Vision Classification
 
 The Pokédex includes a **Camera Tab** designed to classify Pokémon in the real world using your device's camera. 
-Currently, it uses a `MockPokemonClassifier` to simulate the process. 
+It uses the `Xenova/clip-vit-base-patch32` vision embedding model running entirely locally in the browser via WebAssembly (`@xenova/transformers`). 
 
-If you want to plug in a real machine learning model (e.g., using TensorFlow.js), simply:
-1. Open `src/services/classifier.ts`.
-2. Create a new class that implements the `PokemonClassifier` interface.
-3. Inject your new class into `src/components/CameraTab.tsx`.
+By converting the live camera feed into embeddings and comparing them (via cosine similarity) against a local IndexedDB of pre-computed Pokémon embeddings, the application accurately identifies the Pokémon in view. All inferences happen securely on your device!
 
 ## 🛠️ Building for Production
 To build the app as an installable Progressive Web App (PWA):
