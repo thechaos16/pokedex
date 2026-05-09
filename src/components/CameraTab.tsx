@@ -1,7 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
 import { Camera, Loader2 } from 'lucide-react';
 import type { Pokemon } from '../types/pokemon';
-import { MockPokemonClassifier } from '../services/classifier';
+import { LivePokemonClassifier } from '../services/classifier';
 import './CameraTab.css';
 
 interface CameraTabProps {
@@ -13,13 +13,44 @@ export const CameraTab: React.FC<CameraTabProps> = ({ pokemons, onClassify }) =>
   const videoRef = useRef<HTMLVideoElement>(null);
   const [error, setError] = useState<string>('');
   const [isScanning, setIsScanning] = useState<boolean>(false);
+  const [isModelLoading, setIsModelLoading] = useState<boolean>(true);
+  const [progressInfo, setProgressInfo] = useState<string>('Initializing model...');
   
   // Initialize the classifier singleton
-  const classifierRef = useRef(new MockPokemonClassifier(pokemons));
+  const classifierRef = useRef<LivePokemonClassifier | null>(null);
+
+  if (!classifierRef.current) {
+    classifierRef.current = new LivePokemonClassifier(pokemons);
+  }
 
   useEffect(() => {
-    // Optional: Pre-warm the model
-    classifierRef.current.initialize();
+    let mounted = true;
+
+    const initModel = async () => {
+      try {
+        await classifierRef.current?.initialize((info: any) => {
+          if (info.status === 'progress') {
+            setProgressInfo(`Downloading: ${Math.round(info.progress)}%`);
+          } else if (info.status === 'ready') {
+            setProgressInfo('Model ready');
+          } else if (info.status === 'initiate') {
+            setProgressInfo('Loading...');
+          }
+        });
+        if (mounted) {
+          setIsModelLoading(false);
+        }
+      } catch (err) {
+        console.error("Failed to initialize model:", err);
+        if (mounted) setError("Failed to load Vision Model.");
+      }
+    };
+    
+    initModel();
+
+    return () => {
+      mounted = false;
+    };
   }, []);
 
   useEffect(() => {
@@ -49,17 +80,17 @@ export const CameraTab: React.FC<CameraTabProps> = ({ pokemons, onClassify }) =>
   }, []);
 
   const handleCapture = async () => {
-    if (!videoRef.current || isScanning) return;
+    if (!videoRef.current || isScanning || isModelLoading) return;
     
     setIsScanning(true);
     try {
       // Pass the video element to the classifier model
-      const result = await classifierRef.current.classify(videoRef.current);
+      const result = await classifierRef.current!.classify(videoRef.current);
       console.log(`Classified as ${result.pokemon.name} with ${Math.round(result.confidence * 100)}% confidence`);
       onClassify(result.pokemon);
     } catch (err) {
       console.error("Classification failed:", err);
-      setError("Classification failed");
+      setError("Classification failed: " + (err as Error).message);
     } finally {
       setIsScanning(false);
     }
@@ -73,19 +104,27 @@ export const CameraTab: React.FC<CameraTabProps> = ({ pokemons, onClassify }) =>
             <p>{error}</p>
           </div>
         ) : (
-          <video 
-            ref={videoRef} 
-            autoPlay 
-            playsInline 
-            className="camera-video"
-          />
+          <>
+            <video 
+              ref={videoRef} 
+              autoPlay 
+              playsInline 
+              className="camera-video"
+            />
+            {isModelLoading && (
+              <div className="camera-overlay loading-overlay">
+                <Loader2 size={48} className="animate-spin text-white mb-4" />
+                <p className="text-white font-medium">{progressInfo}</p>
+              </div>
+            )}
+          </>
         )}
       </div>
       <div className="camera-controls">
         <button 
           className="capture-btn" 
           onClick={handleCapture}
-          disabled={!!error || isScanning}
+          disabled={!!error || isScanning || isModelLoading}
           aria-label="Take picture and classify"
         >
           {isScanning ? <Loader2 size={32} className="animate-spin" /> : <Camera size={32} />}
