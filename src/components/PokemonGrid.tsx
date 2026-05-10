@@ -19,7 +19,7 @@ export const PokemonGrid: React.FC<PokemonGridProps> = ({ pokemons, capturedMap,
   const filteredPokemons = pokemons.filter(pokemon => {
     const matchesSearch = pokemon.name.toLowerCase().includes(searchTerm.toLowerCase()) || 
                           String(pokemon.id).includes(searchTerm);
-    const matchesFilter = filterMode === 'all' || (filterMode === 'captured' && capturedMap[`${pokemon.id}-${pokemon.name}`]);
+    const matchesFilter = filterMode === 'all' || (filterMode === 'captured' && capturedMap[pokemon.uuid]);
     return matchesSearch && matchesFilter;
   });
 
@@ -69,7 +69,7 @@ export const PokemonGrid: React.FC<PokemonGridProps> = ({ pokemons, capturedMap,
             >
               <PokemonCard 
                 pokemon={pokemon} 
-                isCaptured={capturedMap[`${pokemon.id}-${pokemon.name}`] || false}
+                isCaptured={capturedMap[pokemon.uuid] || false}
                 onClick={onPokemonClick} 
               />
             </div>

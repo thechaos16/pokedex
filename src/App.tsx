@@ -15,9 +15,9 @@ function App() {
   const { user, signInWithGoogle, signOut } = useAuth();
   const { capturedMap, toggleCapture } = useCapturedPokemon();
 
-  // Parse the data correctly
   const pokemons: Pokemon[] = (pokemonData as any[]).map(p => ({
     id: p.id,
+    uuid: p.uuid,
     name: p.name,
     subtitle: p.subtitle,
     image: p.image,
@@ -95,8 +95,8 @@ function App() {
       {selectedPokemon && (
         <PokemonDetail 
           pokemon={selectedPokemon} 
-          isCaptured={capturedMap[`${selectedPokemon.id}-${selectedPokemon.name}`] || false}
-          onToggleCapture={() => toggleCapture(`${selectedPokemon.id}-${selectedPokemon.name}`)}
+          isCaptured={capturedMap[selectedPokemon.uuid] || false}
+          onToggleCapture={() => toggleCapture(selectedPokemon.uuid)}
           onClose={() => setSelectedPokemon(null)} 
           autoPlayTts={autoPlayMode}
           isLoggedIn={!!user}

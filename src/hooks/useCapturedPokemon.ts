@@ -50,16 +50,16 @@ export const useCapturedPokemon = () => {
     fetchCaptured();
   }, [fetchCaptured]);
 
-  const toggleCapture = async (pokemonKey: string) => {
+  const toggleCapture = async (pokemonUuid: string) => {
     if (!user) return;
 
-    const isCurrentlyCaptured = capturedMap[pokemonKey] || false;
+    const isCurrentlyCaptured = capturedMap[pokemonUuid] || false;
     const newCapturedState = !isCurrentlyCaptured;
 
     // Optimistic update
     setCapturedMap(prev => ({
       ...prev,
-      [pokemonKey]: newCapturedState
+      [pokemonUuid]: newCapturedState
     }));
 
     try {
@@ -91,7 +91,7 @@ export const useCapturedPokemon = () => {
           .insert([
             {
               user_id: user.id,
-              pokemon_id: pokemonKey,
+              pokemon_id: pokemonUuid,
               captured: true,
               location: location
             }
@@ -103,7 +103,7 @@ export const useCapturedPokemon = () => {
           .from('captured_pokemon')
           .delete()
           .eq('user_id', user.id)
-          .eq('pokemon_id', pokemonKey);
+          .eq('pokemon_id', pokemonUuid);
         if (error) throw error;
       }
 
@@ -112,7 +112,7 @@ export const useCapturedPokemon = () => {
       // Revert on error
       setCapturedMap(prev => ({
         ...prev,
-        [pokemonKey]: isCurrentlyCaptured
+        [pokemonUuid]: isCurrentlyCaptured
       }));
     }
   };
