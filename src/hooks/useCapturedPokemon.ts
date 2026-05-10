@@ -5,7 +5,7 @@ import { useAuth } from '../contexts/AuthContext';
 export interface CapturedPokemon {
   id: string;
   user_id: string;
-  pokemon_id: number;
+  pokemon_id: string;
   captured: boolean;
   captured_time: string;
   location: any;
@@ -13,7 +13,7 @@ export interface CapturedPokemon {
 
 export const useCapturedPokemon = () => {
   const { user } = useAuth();
-  const [capturedMap, setCapturedMap] = useState<Record<number, boolean>>({});
+  const [capturedMap, setCapturedMap] = useState<Record<string, boolean>>({});
   const [isLoading, setIsLoading] = useState(false);
 
   const fetchCaptured = useCallback(async () => {
@@ -32,7 +32,7 @@ export const useCapturedPokemon = () => {
 
       if (error) throw error;
 
-      const newMap: Record<number, boolean> = {};
+      const newMap: Record<string, boolean> = {};
       if (data) {
         data.forEach((row: CapturedPokemon) => {
           newMap[row.pokemon_id] = true;
@@ -50,16 +50,16 @@ export const useCapturedPokemon = () => {
     fetchCaptured();
   }, [fetchCaptured]);
 
-  const toggleCapture = async (pokemonId: number) => {
+  const toggleCapture = async (pokemonKey: string) => {
     if (!user) return;
 
-    const isCurrentlyCaptured = capturedMap[pokemonId] || false;
+    const isCurrentlyCaptured = capturedMap[pokemonKey] || false;
     const newCapturedState = !isCurrentlyCaptured;
 
     // Optimistic update
     setCapturedMap(prev => ({
       ...prev,
-      [pokemonId]: newCapturedState
+      [pokemonKey]: newCapturedState
     }));
 
     try {
@@ -91,7 +91,7 @@ export const useCapturedPokemon = () => {
           .insert([
             {
               user_id: user.id,
-              pokemon_id: pokemonId,
+              pokemon_id: pokemonKey,
               captured: true,
               location: location
             }
@@ -103,7 +103,7 @@ export const useCapturedPokemon = () => {
           .from('captured_pokemon')
           .delete()
           .eq('user_id', user.id)
-          .eq('pokemon_id', pokemonId);
+          .eq('pokemon_id', pokemonKey);
         if (error) throw error;
       }
 
@@ -112,7 +112,7 @@ export const useCapturedPokemon = () => {
       // Revert on error
       setCapturedMap(prev => ({
         ...prev,
-        [pokemonId]: isCurrentlyCaptured
+        [pokemonKey]: isCurrentlyCaptured
       }));
     }
   };

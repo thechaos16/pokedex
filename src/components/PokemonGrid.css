@@ -62,3 +62,36 @@
   color: var(--text-secondary);
   font-size: 1.2rem;
 }
+
+.filter-pills {
+  display: flex;
+  gap: 8px;
+  padding: 6px;
+  border-radius: 50px;
+  background: var(--surface-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.filter-pill {
+  background: transparent;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 50px;
+  color: var(--text-secondary);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.filter-pill:hover {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.filter-pill.active {
+  background: #3b82f6; /* var(--type-water) approximation */
+  color: white;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+}
