@@ -12,7 +12,7 @@
     "height": "0.7m",
     "weight": "6.9kg",
     "category": "씨앗포켓몬",
-    "uuid": "1d00e910-3fc2-4d11-b317-fba5b6ed807a"
+    "uuid": "a6899e10-a7b1-4224-b169-d16b78e3e70c"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
     "height": "1.0m",
     "weight": "13.0kg",
     "category": "씨앗포켓몬",
-    "uuid": "89dbf30f-49f0-4f96-8c8d-806948150f76"
+    "uuid": "e0a96157-856b-4465-a43a-77127b7b5624"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
     "height": "2.0m",
     "weight": "100.0kg",
     "category": "씨앗포켓몬",
-    "uuid": "46dcd1c8-a8fe-46d6-a75f-3af5ea060a98"
+    "uuid": "a1396811-a1d0-4834-8a0e-44e20f751852"
   },
   {
     "id": 3,
@@ -57,7 +57,7 @@
     "height": "2.4m",
     "weight": "155.5kg",
     "category": "씨앗포켓몬",
-    "uuid": "b769daa2-0efa-42a4-af4c-2f71a9ca07ce"
+    "uuid": "c291ac49-8d36-4647-bcce-659694077d6a"
   },
   {
     "id": 3,
@@ -72,7 +72,7 @@
     "height": "24.0m~",
     "weight": "???.?kg",
     "category": "씨앗포켓몬",
-    "uuid": "46dcd1c8-a8fe-46d6-a75f-3af5ea060a98"
+    "uuid": "544576be-4189-4f1a-919d-7bfd2541fa40"
   },
   {
     "id": 4,
@@ -86,7 +86,7 @@
     "height": "0.6m",
     "weight": "8.5kg",
     "category": "도롱뇽포켓몬",
-    "uuid": "b5466e17-176d-4f89-8c50-d1eccc5bbfc5"
+    "uuid": "b7a46d7f-2e77-430c-ad31-6edecaa1688b"
   },
   {
     "id": 5,
@@ -100,7 +100,7 @@
     "height": "1.1m",
     "weight": "19.0kg",
     "category": "화염포켓몬",
-    "uuid": "9f94c3e0-41b5-4dab-b1c7-d84908d66c1f"
+    "uuid": "bef1b3a8-7de4-4439-b720-d3f00ffdbc9f"
   },
   {
     "id": 6,
@@ -115,7 +115,7 @@
     "height": "1.7m",
     "weight": "90.5kg",
     "category": "화염포켓몬",
-    "uuid": "187576cb-821d-4766-a2c7-65fbdd07571e"
+    "uuid": "31a080e7-9042-43ac-8490-7d1ab80b9fa8"
   },
   {
     "id": 6,
@@ -130,7 +130,7 @@
     "height": "1.7m",
     "weight": "110.5kg",
     "category": "화염포켓몬",
-    "uuid": "e4dfa8e0-abb6-4522-9208-876a523bfabd"
+    "uuid": "8d02d1ec-a739-4bdc-9be3-19a4a9b7786b"
   },
   {
     "id": 6,
@@ -145,7 +145,7 @@
     "height": "1.7m",
     "weight": "100.5kg",
     "category": "화염포켓몬",
-    "uuid": "d74f90d3-7151-4427-adec-a732a0df220b"
+    "uuid": "29edbedb-6559-449d-9321-4d5022b37ac1"
   },
   {
     "id": 6,
@@ -160,7 +160,7 @@
     "height": "28.0m~",
     "weight": "???.?kg",
     "category": "화염포켓몬",
-    "uuid": "187576cb-821d-4766-a2c7-65fbdd07571e"
+    "uuid": "3fd71462-04b6-4ddf-aff0-fca55f41a50e"
   },
   {
     "id": 7,
@@ -174,7 +174,7 @@
     "height": "0.5m",
     "weight": "9.0kg",
     "category": "꼬마거북포켓몬",
-    "uuid": "94aa48a9-cddd-4b70-b2a9-8518ef3e17b5"
+    "uuid": "6d4695cb-afc8-451e-9c98-e42cec39edae"
   },
   {
     "id": 8,
@@ -188,7 +188,7 @@
     "height": "1.0m",
     "weight": "22.5kg",
     "category": "거북포켓몬",
-    "uuid": "04c436fb-0c32-4ad1-9229-5051a18d1a0a"
+    "uuid": "9c9e51b2-8e3e-452a-841b-99883752f00d"
   },
   {
     "id": 9,
@@ -202,7 +202,7 @@
     "height": "1.6m",
     "weight": "85.5kg",
     "category": "껍질포켓몬",
-    "uuid": "ea4adcf1-f062-437f-abad-0837930060ff"
+    "uuid": "86dd4056-732b-4ac6-aa21-90ef4e354da8"
   },
   {
     "id": 9,
@@ -216,7 +216,7 @@
     "height": "1.6m",
     "weight": "101.1kg",
     "category": "껍질포켓몬",
-    "uuid": "67376dc8-975b-44d3-9118-9d9943126b61"
+    "uuid": "12cbb404-614c-4bdf-89d0-799cd00ed348"
   },
   {
     "id": 9,
@@ -230,7 +230,7 @@
     "height": "25.0m~",
     "weight": "???.?kg",
     "category": "껍질포켓몬",
-    "uuid": "ea4adcf1-f062-437f-abad-0837930060ff"
+    "uuid": "bac749bf-ba02-4b72-a523-e261b3762b1b"
   },
   {
     "id": 10,
@@ -244,7 +244,7 @@
     "height": "0.3m",
     "weight": "2.9kg",
     "category": "애벌레포켓몬",
-    "uuid": "612ce5e4-1793-40e9-918f-9b479a736d97"
+    "uuid": "1c9cf8a4-add0-4a6d-b380-8ae0222a9f67"
   },
   {
     "id": 11,
@@ -258,7 +258,7 @@
     "height": "0.7m",
     "weight": "9.9kg",
     "category": "번데기포켓몬",
-    "uuid": "1a2c3034-8c11-47bf-9e55-1c7fc596f55d"
+    "uuid": "73a63c78-cac6-4a6c-b25a-acd5f4ed8df7"
   },
   {
     "id": 12,
@@ -273,7 +273,7 @@
     "height": "1.1m",
     "weight": "32.0kg",
     "category": "나비포켓몬",
-    "uuid": "21c88329-fab5-4e5d-87cd-39fdd1a9f0e4"
+    "uuid": "0ffc9ea0-a624-4db8-be9a-00d5ccff2138"
   },
   {
     "id": 12,
@@ -288,7 +288,7 @@
     "height": "17.0m~",
     "weight": "???.?kg",
     "category": "나비포켓몬",
-    "uuid": "21c88329-fab5-4e5d-87cd-39fdd1a9f0e4"
+    "uuid": "08aaf810-11c0-42be-abf3-4e3dc2d07eae"
   },
   {
     "id": 13,
@@ -303,7 +303,7 @@
     "height": "0.3m",
     "weight": "3.2kg",
     "category": "송충이포켓몬",
-    "uuid": "e6526bd5-3f40-4621-801d-f487017991a9"
+    "uuid": "593bba92-aaf5-49a2-a92c-ca390225e987"
   },
   {
     "id": 14,
@@ -318,7 +318,7 @@
     "height": "0.6m",
     "weight": "10.0kg",
     "category": "번데기포켓몬",
-    "uuid": "e77821de-1299-441a-980c-b10194c4b214"
+    "uuid": "4c258620-3000-4f64-85d4-90403914336a"
   },
   {
     "id": 15,
@@ -333,7 +333,7 @@
     "height": "1.0m",
     "weight": "29.5kg",
     "category": "독벌포켓몬",
-    "uuid": "b2f44f06-785b-48a1-83a9-e30ed91dab2b"
+    "uuid": "356a15b3-3b8b-428c-81f8-5c6af700e703"
   },
   {
     "id": 15,
@@ -348,7 +348,7 @@
     "height": "1.4m",
     "weight": "40.5kg",
     "category": "독벌포켓몬",
-    "uuid": "42c18383-3de9-44a6-9a50-99470cfda688"
+    "uuid": "8bb651bc-43b8-474c-8510-ffc20b442f49"
   },
   {
     "id": 16,
@@ -363,7 +363,7 @@
     "height": "0.3m",
     "weight": "1.8kg",
     "category": "아기새포켓몬",
-    "uuid": "c58713da-69d2-4053-b947-31c1cc62d243"
+    "uuid": "4e5c8ad8-347c-44ef-82db-1d513d095a01"
   },
   {
     "id": 17,
@@ -378,7 +378,7 @@
     "height": "1.1m",
     "weight": "30.0kg",
     "category": "새포켓몬",
-    "uuid": "85719d94-af8c-4b5e-b39d-678f2ffa91bd"
+    "uuid": "19a12666-513a-43f3-b15a-e1b6312adcb9"
   },
   {
     "id": 18,
@@ -393,7 +393,7 @@
     "height": "1.5m",
     "weight": "39.5kg",
     "category": "새포켓몬",
-    "uuid": "04e5d7d5-1a18-4f8f-b6a7-36c2828ff570"
+    "uuid": "6c387d7d-c6f3-49c7-b146-ed5065948c97"
   },
   {
     "id": 18,
@@ -408,7 +408,7 @@
     "height": "2.2m",
     "weight": "50.5kg",
     "category": "새포켓몬",
-    "uuid": "e0c656e8-4f7e-474b-bbbd-4641e2a94239"
+    "uuid": "4bc75376-6385-4415-af32-835df0cb6686"
   },
   {
     "id": 19,
@@ -422,7 +422,7 @@
     "height": "0.3m",
     "weight": "3.5kg",
     "category": "쥐포켓몬",
-    "uuid": "a4b94a12-70e3-4293-ab95-e2123788bba8"
+    "uuid": "729f22c7-7795-4c39-9331-ac76f63df731"
   },
   {
     "id": 19,
@@ -437,7 +437,7 @@
     "height": "0.3m",
     "weight": "3.8kg",
     "category": "쥐포켓몬",
-    "uuid": "a4b94a12-70e3-4293-ab95-e2123788bba8"
+    "uuid": "4321c3dd-b67b-4804-9487-e48d0a3f06ea"
   },
   {
     "id": 20,
@@ -451,7 +451,7 @@
     "height": "0.7m",
     "weight": "18.5kg",
     "category": "쥐포켓몬",
-    "uuid": "1a486643-3a45-4496-be21-b68edc713947"
+    "uuid": "149340d1-3348-432f-98ae-9c8178a07449"
   },
   {
     "id": 20,
@@ -466,7 +466,7 @@
     "height": "0.7m",
     "weight": "25.5kg",
     "category": "쥐포켓몬",
-    "uuid": "1a486643-3a45-4496-be21-b68edc713947"
+    "uuid": "67ee3878-dc39-4306-88cb-5dccd72c6523"
   },
   {
     "id": 21,
@@ -481,7 +481,7 @@
     "height": "0.3m",
     "weight": "2.0kg",
     "category": "아기새포켓몬",
-    "uuid": "8fc4c4c9-504b-4484-a195-4ad625d59afa"
+    "uuid": "f53b3e41-c590-484e-9695-32d9cf12da60"
   },
   {
     "id": 22,
@@ -496,7 +496,7 @@
     "height": "1.2m",
     "weight": "38.0kg",
     "category": "부리포켓몬",
-    "uuid": "cf087e38-b052-48f5-847d-c6f6219f5bde"
+    "uuid": "f5fe1f64-9bae-4ef4-a5f4-3045f54047c8"
   },
   {
     "id": 23,
@@ -510,7 +510,7 @@
     "height": "2.0m",
     "weight": "6.9kg",
     "category": "뱀포켓몬",
-    "uuid": "f5b1ae59-4fa9-4b54-971d-4ec77ce233db"
+    "uuid": "d11a7377-3d2a-4631-8d6b-6d845087934b"
   },
   {
     "id": 24,
@@ -524,7 +524,7 @@
     "height": "3.5m",
     "weight": "65.0kg",
     "category": "코브라포켓몬",
-    "uuid": "038fc65a-606f-4bf6-b8ff-d7a523b34c18"
+    "uuid": "addc3ebd-3ade-4fa1-8d64-b415b016cfea"
   },
   {
     "id": 25,
@@ -538,7 +538,7 @@
     "height": "0.4m",
     "weight": "6.0kg",
     "category": "쥐포켓몬",
-    "uuid": "13107b2f-0825-4c7d-8637-0c214a10772c"
+    "uuid": "dc886ae9-9b04-4326-bf98-1e24ebaa02fe"
   },
   {
     "id": 25,
@@ -552,7 +552,7 @@
     "height": "21.0m~",
     "weight": "???.?kg",
     "category": "쥐포켓몬",
-    "uuid": "13107b2f-0825-4c7d-8637-0c214a10772c"
+    "uuid": "c0edf52c-3c0a-4427-b46e-d06bcff6a17d"
   },
   {
     "id": 26,
@@ -566,7 +566,7 @@
     "height": "0.8m",
     "weight": "30.0kg",
     "category": "쥐포켓몬",
-    "uuid": "a2622e35-51ad-4e7e-94d4-c9d8a2dfba90"
+    "uuid": "41739a03-c3a7-4471-ac7e-d049b7071c30"
   },
   {
     "id": 26,
@@ -581,7 +581,7 @@
     "height": "0.7m",
     "weight": "21.0kg",
     "category": "쥐포켓몬",
-    "uuid": "a2622e35-51ad-4e7e-94d4-c9d8a2dfba90"
+    "uuid": "15ddaf14-0d74-4522-9c29-6a2c83739717"
   },
   {
     "id": 26,
@@ -595,7 +595,7 @@
     "height": "1.2m",
     "weight": "38.0kg",
     "category": "쥐포켓몬",
-    "uuid": "e7e468b8-c23f-4572-ac36-4513887db3c7"
+    "uuid": "71e11495-d382-42ac-96cf-a5fb697af66c"
   },
   {
     "id": 26,
@@ -609,7 +609,7 @@
     "height": "1.0m",
     "weight": "26.0kg",
     "category": "쥐포켓몬",
-    "uuid": "4299ec1b-8da2-406a-813b-7fa71a9d7c4a"
+    "uuid": "61bff83d-9900-498a-8e9a-0e83baaa34b3"
   },
   {
     "id": 27,
@@ -623,7 +623,7 @@
     "height": "0.6m",
     "weight": "12.0kg",
     "category": "쥐포켓몬",
-    "uuid": "f1dd08af-7680-4778-9475-36ac4c4f4ec5"
+    "uuid": "b5741f9b-2e7b-4c79-9176-98c322524547"
   },
   {
     "id": 27,
@@ -638,7 +638,7 @@
     "height": "0.7m",
     "weight": "40.0kg",
     "category": "쥐포켓몬",
-    "uuid": "f1dd08af-7680-4778-9475-36ac4c4f4ec5"
+    "uuid": "54cf8126-a435-493d-b818-b584fc8d7d2c"
   },
   {
     "id": 28,
@@ -652,7 +652,7 @@
     "height": "1.0m",
     "weight": "29.5kg",
     "category": "쥐포켓몬",
-    "uuid": "d7cbed5e-7a6d-41ee-b0c3-a547fa7ed6cf"
+    "uuid": "873cdc4e-c2d8-4fb2-91ea-1497d77f9fef"
   },
   {
     "id": 28,
@@ -667,7 +667,7 @@
     "height": "1.2m",
     "weight": "55.0kg",
     "category": "쥐포켓몬",
-    "uuid": "d7cbed5e-7a6d-41ee-b0c3-a547fa7ed6cf"
+    "uuid": "bbed98b9-0ff7-4402-a79b-2ee34a1cdf2e"
   },
   {
     "id": 29,
@@ -681,7 +681,7 @@
     "height": "0.4m",
     "weight": "7.0kg",
     "category": "독침포켓몬",
-    "uuid": "347f12a2-e777-42a8-83c4-7b91255c52c4"
+    "uuid": "feb640a2-f63e-4521-bd71-fd74f4e6b9a4"
   },
   {
     "id": 30,
@@ -695,7 +695,7 @@
     "height": "0.8m",
     "weight": "20.0kg",
     "category": "독침포켓몬",
-    "uuid": "cf14e92a-da47-4673-9820-7ac601d3f9a1"
+    "uuid": "d5b9b39d-d624-4d7f-8ace-a3883d25d5e6"
   },
   {
     "id": 31,
@@ -710,7 +710,7 @@
     "height": "1.3m",
     "weight": "60.0kg",
     "category": "드릴포켓몬",
-    "uuid": "17868f21-0783-4a12-a636-4e7f22ddbd9f"
+    "uuid": "a72955cb-0aa8-4e29-86c6-b3708121ae23"
   },
   {
     "id": 32,
@@ -724,7 +724,7 @@
     "height": "0.5m",
     "weight": "9.0kg",
     "category": "독침포켓몬",
-    "uuid": "84466bc7-a2ce-4481-a2ac-de7064dc8252"
+    "uuid": "8bcfe23a-14fd-40ec-b8ca-3b3e631095d2"
   },
   {
     "id": 33,
@@ -738,7 +738,7 @@
     "height": "0.9m",
     "weight": "19.5kg",
     "category": "독침포켓몬",
-    "uuid": "0dc79c09-a2d2-4906-b56a-c6276da3c2d4"
+    "uuid": "5d6a1754-abab-421d-b74f-4ca293ff5ab0"
   },
   {
     "id": 34,
@@ -753,7 +753,7 @@
     "height": "1.4m",
     "weight": "62.0kg",
     "category": "드릴포켓몬",
-    "uuid": "622c3d69-6660-422b-815c-a2bb3938b9c0"
+    "uuid": "6189c9ef-78ed-48fa-a467-131fbbb2e253"
   },
   {
     "id": 35,
@@ -767,7 +767,7 @@
     "height": "0.6m",
     "weight": "7.5kg",
     "category": "요정포켓몬",
-    "uuid": "944e7e73-c405-4434-a381-f2d801becb82"
+    "uuid": "83cf991f-b3d5-4987-a478-fb7a3f00d14e"
   },
   {
     "id": 36,
@@ -781,7 +781,7 @@
     "height": "1.3m",
     "weight": "40.0kg",
     "category": "요정포켓몬",
-    "uuid": "36931cb1-c4ab-4a5a-a7d2-3b2586cc00fa"
+    "uuid": "24179481-2162-4107-85e4-e110e8312c28"
   },
   {
     "id": 36,
@@ -796,7 +796,7 @@
     "height": "1.7m",
     "weight": "42.3kg",
     "category": "요정포켓몬",
-    "uuid": "6cf3487a-d11c-4be3-a08d-8eddc4b03ff7"
+    "uuid": "fd6d87d9-fbb4-4663-854f-8f6212ab9ead"
   },
   {
     "id": 37,
@@ -810,7 +810,7 @@
     "height": "0.6m",
     "weight": "9.9kg",
     "category": "여우포켓몬",
-    "uuid": "8c79bdb1-cf14-46a2-a50d-b5a526a1ae6d"
+    "uuid": "df19dd49-8a65-4915-9949-635659e3afa7"
   },
   {
     "id": 37,
@@ -824,7 +824,7 @@
     "height": "0.6m",
     "weight": "9.9kg",
     "category": "여우포켓몬",
-    "uuid": "8c79bdb1-cf14-46a2-a50d-b5a526a1ae6d"
+    "uuid": "a79b0aad-abd1-442a-9811-95d0a4347cc7"
   },
   {
     "id": 38,
@@ -838,7 +838,7 @@
     "height": "1.1m",
     "weight": "19.9kg",
     "category": "여우포켓몬",
-    "uuid": "3b101113-b904-4b99-a8ca-ff16a68ee8e6"
+    "uuid": "97486abb-3f93-4039-bf44-e39dd6329bdb"
   },
   {
     "id": 38,
@@ -853,7 +853,7 @@
     "height": "1.1m",
     "weight": "19.9kg",
     "category": "여우포켓몬",
-    "uuid": "3b101113-b904-4b99-a8ca-ff16a68ee8e6"
+    "uuid": "a0efc101-163e-47c8-afe9-2b94a3513512"
   },
   {
     "id": 39,
@@ -868,7 +868,7 @@
     "height": "0.5m",
     "weight": "5.5kg",
     "category": "풍선포켓몬",
-    "uuid": "0c610541-05a2-4b98-9f19-3ba786f14332"
+    "uuid": "25866ff8-6172-4c83-a9d7-5cd1eeb0a13a"
   },
   {
     "id": 40,
@@ -883,7 +883,7 @@
     "height": "1.0m",
     "weight": "12.0kg",
     "category": "풍선포켓몬",
-    "uuid": "5abc6bac-8289-4482-ab6c-2bd96f0e5666"
+    "uuid": "4ec19771-fc47-43c8-bab5-cc48a41e4088"
   },
   {
     "id": 41,
@@ -898,7 +898,7 @@
     "height": "0.8m",
     "weight": "7.5kg",
     "category": "박쥐포켓몬",
-    "uuid": "1c223fa0-5c22-4994-9a41-2edc2eb018be"
+    "uuid": "f3d677cc-2276-41c1-b606-532215194f5c"
   },
   {
     "id": 42,
@@ -913,7 +913,7 @@
     "height": "1.6m",
     "weight": "55.0kg",
     "category": "박쥐포켓몬",
-    "uuid": "13b9617e-d1b2-4550-bbe5-54f125ccdc28"
+    "uuid": "a7de1a05-09a0-41de-926b-7cc0662b2a09"
   },
   {
     "id": 43,
@@ -928,7 +928,7 @@
     "height": "0.5m",
     "weight": "5.4kg",
     "category": "잡초포켓몬",
-    "uuid": "4976f8dc-dfdb-4393-9cb6-2824039d3819"
+    "uuid": "bd6ba6a1-293c-4503-a8e0-f1c46300674c"
   },
   {
     "id": 44,
@@ -943,7 +943,7 @@
     "height": "0.8m",
     "weight": "8.6kg",
     "category": "잡초포켓몬",
-    "uuid": "7ab6282c-d54e-4470-966b-4761417a1d9d"
+    "uuid": "dd33c14a-504e-4fe7-8ba6-93999c96101a"
   },
   {
     "id": 45,
@@ -958,7 +958,7 @@
     "height": "1.2m",
     "weight": "18.6kg",
     "category": "꽃포켓몬",
-    "uuid": "bf88660d-bfd9-4fc3-8813-29f322fd9e45"
+    "uuid": "382fa892-f61c-4833-a229-eacd27cbbf20"
   },
   {
     "id": 46,
@@ -973,7 +973,7 @@
     "height": "0.3m",
     "weight": "5.4kg",
     "category": "버섯포켓몬",
-    "uuid": "59d332fd-faf0-481b-997c-be5361d0be1a"
+    "uuid": "d17c3b90-5ab2-499d-9072-d5c560b48d22"
   },
   {
     "id": 47,
@@ -988,7 +988,7 @@
     "height": "1.0m",
     "weight": "29.5kg",
     "category": "버섯포켓몬",
-    "uuid": "90488585-ef1f-477a-a7d3-cf1b89674f04"
+    "uuid": "8c0a7674-8662-45cc-ab62-2e19269ba6e7"
   },
   {
     "id": 48,
@@ -1003,7 +1003,7 @@
     "height": "1.0m",
     "weight": "30.0kg",
     "category": "곤충포켓몬",
-    "uuid": "9146d49e-eb45-4c23-a8a3-a99ecff481f7"
+    "uuid": "c043030d-0ceb-47a7-a304-047d129e27b1"
   },
   {
     "id": 49,
@@ -1018,7 +1018,7 @@
     "height": "1.5m",
     "weight": "12.5kg",
     "category": "독나방포켓몬",
-    "uuid": "12801b59-3936-4a85-b1b0-1e4698dd70fb"
+    "uuid": "a93b7142-fb77-4377-85ab-1c65e89292c4"
   },
   {
     "id": 50,
@@ -1032,7 +1032,7 @@
     "height": "0.2m",
     "weight": "0.8kg",
     "category": "두더지포켓몬",
-    "uuid": "6f31d739-27af-41b2-bbd8-3b6dc2932020"
+    "uuid": "fd25cc6c-8791-4706-abbd-fed33e84fb2a"
   },
   {
     "id": 50,
@@ -1047,7 +1047,7 @@
     "height": "0.2m",
     "weight": "1.0kg",
     "category": "두더지포켓몬",
-    "uuid": "6f31d739-27af-41b2-bbd8-3b6dc2932020"
+    "uuid": "76a6cd59-1627-4285-9971-dd787cb360f4"
   },
   {
     "id": 51,
@@ -1061,7 +1061,7 @@
     "height": "0.7m",
     "weight": "33.3kg",
     "category": "두더지포켓몬",
-    "uuid": "1d9c8966-9faf-4748-aa19-322d65383b9a"
+    "uuid": "abda1cea-2f8b-4103-84cf-d332148f5a10"
   },
   {
     "id": 51,
@@ -1076,7 +1076,7 @@
     "height": "0.7m",
     "weight": "66.6kg",
     "category": "두더지포켓몬",
-    "uuid": "1d9c8966-9faf-4748-aa19-322d65383b9a"
+    "uuid": "be2aebb9-374d-4673-a302-2d0049c9bb8e"
   },
   {
     "id": 52,
@@ -1090,7 +1090,7 @@
     "height": "0.4m",
     "weight": "4.2kg",
     "category": "요괴고양이포켓몬",
-    "uuid": "f6c38077-7e4e-4cdd-80f7-8dc603e919ce"
+    "uuid": "6189b79b-9ec7-4214-b783-138bbc26b01e"
   },
   {
     "id": 52,
@@ -1104,7 +1104,7 @@
     "height": "0.4m",
     "weight": "4.2kg",
     "category": "요괴고양이포켓몬",
-    "uuid": "f6c38077-7e4e-4cdd-80f7-8dc603e919ce"
+    "uuid": "2d1633c5-a76d-4893-a78e-1ee61ee951e7"
   },
   {
     "id": 52,
@@ -1118,7 +1118,7 @@
     "height": "0.4m",
     "weight": "7.5kg",
     "category": "요괴고양이포켓몬",
-    "uuid": "f6c38077-7e4e-4cdd-80f7-8dc603e919ce"
+    "uuid": "2babb115-f861-4fbd-9fa6-75e7e1189935"
   },
   {
     "id": 52,
@@ -1132,7 +1132,7 @@
     "height": "33.0m~",
     "weight": "???.?kg",
     "category": "요괴고양이포켓몬",
-    "uuid": "f6c38077-7e4e-4cdd-80f7-8dc603e919ce"
+    "uuid": "867c5ce8-42ab-4cf8-a8c7-2b3710b231d9"
   },
   {
     "id": 53,
@@ -1146,7 +1146,7 @@
     "height": "1.0m",
     "weight": "32.0kg",
     "category": "샴고양이포켓몬",
-    "uuid": "f689a730-6640-4978-8a96-694ed2af85af"
+    "uuid": "de09c374-9b96-4694-96da-74ac161573bd"
   },
   {
     "id": 53,
@@ -1160,7 +1160,7 @@
     "height": "1.1m",
     "weight": "33.0kg",
     "category": "샴고양이포켓몬",
-    "uuid": "f689a730-6640-4978-8a96-694ed2af85af"
+    "uuid": "9dedcb85-3630-4aa8-9bf7-b68ad6c0abbe"
   },
   {
     "id": 54,
@@ -1174,7 +1174,7 @@
     "height": "0.8m",
     "weight": "19.6kg",
     "category": "오리포켓몬",
-    "uuid": "d42c507c-1238-4d36-946c-b45411102cb2"
+    "uuid": "a3692de2-3d33-42f0-9f22-b633155221fc"
   },
   {
     "id": 55,
@@ -1188,7 +1188,7 @@
     "height": "1.7m",
     "weight": "76.6kg",
     "category": "오리포켓몬",
-    "uuid": "7dd4468b-98b8-4508-9cd8-78f32c8987a3"
+    "uuid": "6ccba8b9-993a-4251-a04c-45f88c903be7"
   },
   {
     "id": 56,
@@ -1202,7 +1202,7 @@
     "height": "0.5m",
     "weight": "28.0kg",
     "category": "돈숭이포켓몬",
-    "uuid": "34a0cf1b-5744-4b4f-b3a5-f1ee0bde022f"
+    "uuid": "e8e5f007-d1fa-4311-a4c9-6bd694b998b2"
   },
   {
     "id": 57,
@@ -1216,7 +1216,7 @@
     "height": "1.0m",
     "weight": "32.0kg",
     "category": "돈숭이포켓몬",
-    "uuid": "0fbee449-7dd1-4266-8b55-280254874752"
+    "uuid": "a8d3d0c5-d281-43a8-ab04-12515c976b97"
   },
   {
     "id": 58,
@@ -1230,7 +1230,7 @@
     "height": "0.7m",
     "weight": "19.0kg",
     "category": "강아지포켓몬",
-    "uuid": "efa29946-f99d-4be7-9f59-eefe3611e331"
+    "uuid": "9ee8f9ec-515a-4410-97da-5340ea3279d5"
   },
   {
     "id": 58,
@@ -1245,7 +1245,7 @@
     "height": "0.8m",
     "weight": "22.7kg",
     "category": "망보기포켓몬",
-    "uuid": "efa29946-f99d-4be7-9f59-eefe3611e331"
+    "uuid": "d5ced1d1-5738-42c4-93c8-817c5680ed55"
   },
   {
     "id": 59,
@@ -1259,7 +1259,7 @@
     "height": "1.9m",
     "weight": "155.0kg",
     "category": "전설포켓몬",
-    "uuid": "c20b464b-213e-4b4d-b6da-6f05a6b6128a"
+    "uuid": "c970259e-c293-40c5-8093-2c7b1984b8a0"
   },
   {
     "id": 59,
@@ -1274,7 +1274,7 @@
     "height": "2.0m",
     "weight": "168.0kg",
     "category": "전설포켓몬",
-    "uuid": "c20b464b-213e-4b4d-b6da-6f05a6b6128a"
+    "uuid": "bfbe601d-e18c-4834-9dd4-0804028a3358"
   },
   {
     "id": 60,
@@ -1288,7 +1288,7 @@
     "height": "0.6m",
     "weight": "12.4kg",
     "category": "올챙이포켓몬",
-    "uuid": "4f6de224-d339-4be2-ab8d-9f780ee35783"
+    "uuid": "95cd7ca3-0039-4a74-9098-d2681b92b3ca"
   },
   {
     "id": 61,
@@ -1302,7 +1302,7 @@
     "height": "1.0m",
     "weight": "20.0kg",
     "category": "올챙이포켓몬",
-    "uuid": "ab18ccdb-2878-498a-bd71-8a41bea6eb07"
+    "uuid": "44e65bca-b320-450d-b536-2bba6351d5e3"
   },
   {
     "id": 62,
@@ -1317,7 +1317,7 @@
     "height": "1.3m",
     "weight": "54.0kg",
     "category": "올챙이포켓몬",
-    "uuid": "3963b505-e7d9-4523-9ef3-7f811803129f"
+    "uuid": "ed464b2e-0bc4-4f5a-a5e8-d622137b85b6"
   },
   {
     "id": 63,
@@ -1331,7 +1331,7 @@
     "height": "0.9m",
     "weight": "19.5kg",
     "category": "초능력포켓몬",
-    "uuid": "8c4314bd-b2c0-47f0-945f-a17162335e2d"
+    "uuid": "504c56ce-5395-4dde-89e7-24be0db6ee83"
   },
   {
     "id": 64,
@@ -1345,7 +1345,7 @@
     "height": "1.3m",
     "weight": "56.5kg",
     "category": "초능력포켓몬",
-    "uuid": "5361e36e-8c94-4492-ae73-94017066ab6b"
+    "uuid": "fba98ff8-4638-4349-9801-9a3947101657"
   },
   {
     "id": 65,
@@ -1359,7 +1359,7 @@
     "height": "1.5m",
     "weight": "48.0kg",
     "category": "초능력포켓몬",
-    "uuid": "c797db0e-9d35-4637-8bfd-305487ece148"
+    "uuid": "f103d80a-5e95-4d76-9f08-86deaf87f733"
   },
   {
     "id": 65,
@@ -1373,7 +1373,7 @@
     "height": "1.2m",
     "weight": "48.0kg",
     "category": "초능력포켓몬",
-    "uuid": "9ab27f38-d6e4-4570-b782-6c16d5ece801"
+    "uuid": "b1ac9cb5-7692-4301-a21d-902ae5c167a2"
   },
   {
     "id": 66,
@@ -1387,7 +1387,7 @@
     "height": "0.8m",
     "weight": "19.5kg",
     "category": "괴력포켓몬",
-    "uuid": "6915141a-f943-4c7f-b027-49bc68a4f139"
+    "uuid": "1d4a0b20-bd54-4edf-849d-fbc733b1948b"
   },
   {
     "id": 67,
@@ -1401,7 +1401,7 @@
     "height": "1.5m",
     "weight": "70.5kg",
     "category": "괴력포켓몬",
-    "uuid": "12a68c65-8922-4e7f-91f7-da4c0faccded"
+    "uuid": "c0a3e759-4d5b-4da4-a8e1-8c13b91cc5ff"
   },
   {
     "id": 68,
@@ -1415,7 +1415,7 @@
     "height": "1.6m",
     "weight": "130.0kg",
     "category": "괴력포켓몬",
-    "uuid": "71ea30e3-3027-4998-8517-8bc387939a9e"
+    "uuid": "dc43c082-8777-4f38-b83e-b90fb11eb83b"
   },
   {
     "id": 68,
@@ -1429,7 +1429,7 @@
     "height": "25.0m~",
     "weight": "???.?kg",
     "category": "괴력포켓몬",
-    "uuid": "71ea30e3-3027-4998-8517-8bc387939a9e"
+    "uuid": "9b86ec0f-0dfc-49cf-a125-2b36ef19b1e7"
   },
   {
     "id": 69,
@@ -1444,7 +1444,7 @@
     "height": "0.7m",
     "weight": "4.0kg",
     "category": "꽃포켓몬",
-    "uuid": "78e594e9-bb4e-4c5c-9d64-6b3083528451"
+    "uuid": "bd2cdefa-a365-48b9-833f-4a1dbb262bcd"
   },
   {
     "id": 70,
@@ -1459,7 +1459,7 @@
     "height": "1.0m",
     "weight": "6.4kg",
     "category": "파리잡이포켓몬",
-    "uuid": "5b230586-6377-4666-be22-f06f34d0018e"
+    "uuid": "ca004b5d-d827-47a4-847b-e9cce383c5dd"
   },
   {
     "id": 71,
@@ -1474,7 +1474,7 @@
     "height": "1.7m",
     "weight": "15.5kg",
     "category": "파리잡이포켓몬",
-    "uuid": "86d6dea3-65c2-4a53-84cc-b615c083353f"
+    "uuid": "b9e58414-a7e4-4de6-8561-155db611493d"
   },
   {
     "id": 71,
@@ -1489,7 +1489,7 @@
     "height": "4.5m",
     "weight": "125.5kg",
     "category": "파리잡이포켓몬",
-    "uuid": "f8683b6e-8bc6-47db-a56c-89b9f5fa7b3d"
+    "uuid": "7ec8a0e3-9b07-4c61-b784-b52e84ccbbe5"
   },
   {
     "id": 72,
@@ -1504,7 +1504,7 @@
     "height": "0.9m",
     "weight": "45.5kg",
     "category": "해파리포켓몬",
-    "uuid": "0639e6f0-46b2-4541-8cbe-2deece0b8917"
+    "uuid": "9fdcbeac-c5e8-4837-91a9-01e0ad36f9ac"
   },
   {
     "id": 73,
@@ -1519,7 +1519,7 @@
     "height": "1.6m",
     "weight": "55.0kg",
     "category": "해파리포켓몬",
-    "uuid": "5bc4a70f-9945-4225-9402-3276df31a704"
+    "uuid": "36059e92-8973-42af-bcb3-e65c139a46b6"
   },
   {
     "id": 74,
@@ -1534,7 +1534,7 @@
     "height": "0.4m",
     "weight": "20.0kg",
     "category": "암석포켓몬",
-    "uuid": "57e1a605-32b6-491e-8521-b7e304edaad2"
+    "uuid": "73677591-d410-49be-87a5-6ef3ed90614c"
   },
   {
     "id": 74,
@@ -1549,7 +1549,7 @@
     "height": "0.4m",
     "weight": "20.3kg",
     "category": "암석포켓몬",
-    "uuid": "57e1a605-32b6-491e-8521-b7e304edaad2"
+    "uuid": "8705e8c5-f2cc-4c71-b392-32a49bc84897"
   },
   {
     "id": 75,
@@ -1564,7 +1564,7 @@
     "height": "1.0m",
     "weight": "105.0kg",
     "category": "암석포켓몬",
-    "uuid": "cbabf56d-d752-4e6f-beaa-973ded406e0c"
+    "uuid": "e20f6d60-177d-4729-8f75-0121492a67ef"
   },
   {
     "id": 75,
@@ -1579,7 +1579,7 @@
     "height": "1.0m",
     "weight": "110.0kg",
     "category": "암석포켓몬",
-    "uuid": "cbabf56d-d752-4e6f-beaa-973ded406e0c"
+    "uuid": "21b37baa-49f8-4cb0-98cb-57b53c5c3077"
   },
   {
     "id": 76,
@@ -1594,7 +1594,7 @@
     "height": "1.4m",
     "weight": "300.0kg",
     "category": "메가톤포켓몬",
-    "uuid": "d129bada-5a31-417f-afe0-cc230c6f5bec"
+    "uuid": "89cf0d46-5321-469d-97b9-2fc17acc1bd3"
   },
   {
     "id": 76,
@@ -1609,7 +1609,7 @@
     "height": "1.7m",
     "weight": "316.0kg",
     "category": "메가톤포켓몬",
-    "uuid": "d129bada-5a31-417f-afe0-cc230c6f5bec"
+    "uuid": "401ae042-b7b6-46c0-a300-02a5e5ba63bc"
   },
   {
     "id": 77,
@@ -1623,7 +1623,7 @@
     "height": "1.0m",
     "weight": "30.0kg",
     "category": "불의말포켓몬",
-    "uuid": "9b652058-0f92-4177-a3f4-9ceb1cac12fa"
+    "uuid": "6ebc3d3f-618a-4db8-b000-7938f6daef0d"
   },
   {
     "id": 77,
@@ -1637,7 +1637,7 @@
     "height": "0.8m",
     "weight": "24.0kg",
     "category": "일각포켓몬",
-    "uuid": "9b652058-0f92-4177-a3f4-9ceb1cac12fa"
+    "uuid": "fd966f34-d346-4517-8489-39137343fcc2"
   },
   {
     "id": 78,
@@ -1651,7 +1651,7 @@
     "height": "1.7m",
     "weight": "95.0kg",
     "category": "불의말포켓몬",
-    "uuid": "553b74ad-f916-475c-9fb7-c9e1b16db8bd"
+    "uuid": "ab76260b-f05e-4b1f-a244-78e4a4895d8d"
   },
   {
     "id": 78,
@@ -1666,7 +1666,7 @@
     "height": "1.7m",
     "weight": "80.0kg",
     "category": "일각포켓몬",
-    "uuid": "553b74ad-f916-475c-9fb7-c9e1b16db8bd"
+    "uuid": "6375cf8f-10e1-44e6-934c-a1654d9e9115"
   },
   {
     "id": 79,
@@ -1681,7 +1681,7 @@
     "height": "1.2m",
     "weight": "36.0kg",
     "category": "얼간이포켓몬",
-    "uuid": "20696b32-d3b3-4148-9f5a-1285d681af5a"
+    "uuid": "87a03660-f29a-4a89-a4ae-d1d3e5a1a1c0"
   },
   {
     "id": 79,
@@ -1695,7 +1695,7 @@
     "height": "1.2m",
     "weight": "36.0kg",
     "category": "얼간이포켓몬",
-    "uuid": "20696b32-d3b3-4148-9f5a-1285d681af5a"
+    "uuid": "b80692f1-7a76-47d4-8422-53c3c17643f7"
   },
   {
     "id": 80,
@@ -1710,7 +1710,7 @@
     "height": "1.6m",
     "weight": "78.5kg",
     "category": "기생포켓몬",
-    "uuid": "795b861f-9434-44c3-96de-8002c89c9e7e"
+    "uuid": "899816e0-1082-4def-849a-c25352151a17"
   },
   {
     "id": 80,
@@ -1725,7 +1725,7 @@
     "height": "2.0m",
     "weight": "120.0kg",
     "category": "기생포켓몬",
-    "uuid": "2c6e6808-e565-49d3-887f-c951cdee0482"
+    "uuid": "fdd40207-d639-4b3b-9abb-4c39574eaca3"
   },
   {
     "id": 80,
@@ -1740,7 +1740,7 @@
     "height": "1.6m",
     "weight": "70.5kg",
     "category": "기생포켓몬",
-    "uuid": "795b861f-9434-44c3-96de-8002c89c9e7e"
+    "uuid": "11bc61a1-463e-45a4-8e68-f1549eb29e81"
   },
   {
     "id": 81,
@@ -1755,7 +1755,7 @@
     "height": "0.3m",
     "weight": "6.0kg",
     "category": "자석포켓몬",
-    "uuid": "d499566c-1e33-41b4-9457-20c47e7e6e8f"
+    "uuid": "9c4d3da5-73bf-4d3b-9151-06c12b36f056"
   },
   {
     "id": 82,
@@ -1770,7 +1770,7 @@
     "height": "1.0m",
     "weight": "60.0kg",
     "category": "자석포켓몬",
-    "uuid": "7a7e199e-d930-4fd1-943a-d6592713e4b3"
+    "uuid": "c9db7faa-836b-40a2-8031-0973fbf81f0b"
   },
   {
     "id": 83,
@@ -1785,7 +1785,7 @@
     "height": "0.8m",
     "weight": "15.0kg",
     "category": "청둥오리포켓몬",
-    "uuid": "ee1fea07-0a8a-4807-915d-af9a85c3b475"
+    "uuid": "d18ca4f0-198d-41df-9abd-e012424f8acf"
   },
   {
     "id": 83,
@@ -1799,7 +1799,7 @@
     "height": "0.8m",
     "weight": "42.0kg",
     "category": "청둥오리포켓몬",
-    "uuid": "ee1fea07-0a8a-4807-915d-af9a85c3b475"
+    "uuid": "6c052fa6-c9b0-4a04-b051-94dd328e532b"
   },
   {
     "id": 84,
@@ -1814,7 +1814,7 @@
     "height": "1.4m",
     "weight": "39.2kg",
     "category": "쌍둥이새포켓몬",
-    "uuid": "290e5f3e-92a4-41a1-a94f-59a075192605"
+    "uuid": "a0f69c6d-3771-4437-a5d8-e243d89d7638"
   },
   {
     "id": 85,
@@ -1829,7 +1829,7 @@
     "height": "1.8m",
     "weight": "85.2kg",
     "category": "세쌍둥이새포켓몬",
-    "uuid": "d3a86d69-83d4-4559-92b9-c89adf89c476"
+    "uuid": "f66722ba-81c8-408b-9f8e-8c1f62b71fec"
   },
   {
     "id": 86,
@@ -1843,7 +1843,7 @@
     "height": "1.1m",
     "weight": "90.0kg",
     "category": "강치포켓몬",
-    "uuid": "8cbd1eb6-fe6e-4506-ab5f-be34813ee2d5"
+    "uuid": "aa10599c-3d91-4ec4-baf8-6b83443f90a5"
   },
   {
     "id": 87,
@@ -1858,7 +1858,7 @@
     "height": "1.7m",
     "weight": "120.0kg",
     "category": "강치포켓몬",
-    "uuid": "19634c3a-0a94-4a01-bae7-43db9ac9d8ac"
+    "uuid": "af6f7917-4e12-489c-97eb-0335627a7405"
   },
   {
     "id": 88,
@@ -1872,7 +1872,7 @@
     "height": "0.9m",
     "weight": "30.0kg",
     "category": "오물포켓몬",
-    "uuid": "adbbd65e-5c5f-4b85-b936-07d31680665f"
+    "uuid": "fe2fedf9-93c1-488a-83a2-4cb3d31f3a77"
   },
   {
     "id": 88,
@@ -1887,7 +1887,7 @@
     "height": "0.7m",
     "weight": "42.0kg",
     "category": "오물포켓몬",
-    "uuid": "adbbd65e-5c5f-4b85-b936-07d31680665f"
+    "uuid": "970c3b98-db4a-4165-b36b-45276fbfa733"
   },
   {
     "id": 89,
@@ -1901,7 +1901,7 @@
     "height": "1.2m",
     "weight": "30.0kg",
     "category": "오물포켓몬",
-    "uuid": "a8fbf800-8aa7-478d-bdbb-2551028ed38b"
+    "uuid": "573e905d-e6e8-4288-a879-03b90e5f1d75"
   },
   {
     "id": 89,
@@ -1916,7 +1916,7 @@
     "height": "1.0m",
     "weight": "52.0kg",
     "category": "오물포켓몬",
-    "uuid": "a8fbf800-8aa7-478d-bdbb-2551028ed38b"
+    "uuid": "c470becc-697e-425d-9988-899f58c5627f"
   },
   {
     "id": 90,
@@ -1930,7 +1930,7 @@
     "height": "0.3m",
     "weight": "4.0kg",
     "category": "두조개포켓몬",
-    "uuid": "1058fd49-3a73-4b78-b1f2-273f800b02d5"
+    "uuid": "9abab885-85a9-470d-b2fc-21b368d3a1e9"
   },
   {
     "id": 91,
@@ -1945,7 +1945,7 @@
     "height": "1.5m",
     "weight": "132.5kg",
     "category": "두조개포켓몬",
-    "uuid": "5950b8ef-7617-4bb3-baa1-bd778a825e92"
+    "uuid": "b1942b88-92e4-4b75-9e0f-057400afd9f3"
   },
   {
     "id": 92,
@@ -1960,7 +1960,7 @@
     "height": "1.3m",
     "weight": "0.1kg",
     "category": "가스포켓몬",
-    "uuid": "90d1060e-bde7-4754-80a3-cbec9ca7c0cb"
+    "uuid": "9afb7b8c-6dda-4332-80f4-c8bfc4f0ab89"
   },
   {
     "id": 93,
@@ -1975,7 +1975,7 @@
     "height": "1.6m",
     "weight": "0.1kg",
     "category": "가스포켓몬",
-    "uuid": "ff683976-7c6b-4a83-bd2d-92b78ac37182"
+    "uuid": "efc02ac4-95e1-497d-8059-8dbab63a35b6"
   },
   {
     "id": 94,
@@ -1990,7 +1990,7 @@
     "height": "1.5m",
     "weight": "40.5kg",
     "category": "그림자포켓몬",
-    "uuid": "ef19ce14-cc75-41ce-a479-e9efadc2159b"
+    "uuid": "53f00de2-3c48-4d07-842e-eb4ffa707f84"
   },
   {
     "id": 94,
@@ -2005,7 +2005,7 @@
     "height": "1.4m",
     "weight": "40.5kg",
     "category": "그림자포켓몬",
-    "uuid": "63899417-39e0-4a47-86e1-7d54608373f5"
+    "uuid": "39d8e28b-f842-4c03-ae0f-b0ffe40a584f"
   },
   {
     "id": 94,
@@ -2020,7 +2020,7 @@
     "height": "20.0m~",
     "weight": "???.?kg",
     "category": "그림자포켓몬",
-    "uuid": "ef19ce14-cc75-41ce-a479-e9efadc2159b"
+    "uuid": "d7d6694f-2d7c-47c8-b80e-44aec15fb2fb"
   },
   {
     "id": 95,
@@ -2035,7 +2035,7 @@
     "height": "8.8m",
     "weight": "210.0kg",
     "category": "돌뱀포켓몬",
-    "uuid": "76001b96-952d-424d-8e34-87cffc85623e"
+    "uuid": "66643c23-b11d-4398-87be-f1fae4feed6a"
   },
   {
     "id": 96,
@@ -2049,7 +2049,7 @@
     "height": "1.0m",
     "weight": "32.4kg",
     "category": "최면포켓몬",
-    "uuid": "6cef3440-987e-4bfb-ad4f-c6b780b0628e"
+    "uuid": "f47c8862-d914-40ab-864b-f21c378aee8c"
   },
   {
     "id": 97,
@@ -2063,7 +2063,7 @@
     "height": "1.6m",
     "weight": "75.6kg",
     "category": "최면포켓몬",
-    "uuid": "716e9488-e183-4aa2-90c7-c4e928fc20ca"
+    "uuid": "76f9df8d-a468-447b-a75a-17c649671fc8"
   },
   {
     "id": 98,
@@ -2077,7 +2077,7 @@
     "height": "0.4m",
     "weight": "6.5kg",
     "category": "게포켓몬",
-    "uuid": "28282ec1-27d5-4878-97ca-cd82b2eb782d"
+    "uuid": "866d32e0-a6f8-4024-92e8-fdf0befa0032"
   },
   {
     "id": 99,
@@ -2091,7 +2091,7 @@
     "height": "1.3m",
     "weight": "60.0kg",
     "category": "집게포켓몬",
-    "uuid": "632d3fcf-2a55-4812-9374-a02682cd3c30"
+    "uuid": "1c3dc357-5248-4611-a8e0-ea079137a22a"
   },
   {
     "id": 99,
@@ -2105,7 +2105,7 @@
     "height": "19.0m~",
     "weight": "???.?kg",
     "category": "집게포켓몬",
-    "uuid": "632d3fcf-2a55-4812-9374-a02682cd3c30"
+    "uuid": "6938c62d-104a-44aa-b20d-df21f24ab9b7"
   },
   {
     "id": 100,
@@ -2119,7 +2119,7 @@
     "height": "0.5m",
     "weight": "10.4kg",
     "category": "볼포켓몬",
-    "uuid": "c95d748e-8d88-43f1-8da1-fdb907feac65"
+    "uuid": "e828c3d1-3997-43f6-829d-44186f5a5231"
   },
   {
     "id": 100,
@@ -2134,7 +2134,7 @@
     "height": "0.5m",
     "weight": "13.0kg",
     "category": "구체포켓몬",
-    "uuid": "c95d748e-8d88-43f1-8da1-fdb907feac65"
+    "uuid": "06e0a7d9-29fa-4833-809c-99b44a0e5830"
   },
   {
     "id": 101,
@@ -2148,7 +2148,7 @@
     "height": "1.2m",
     "weight": "66.6kg",
     "category": "볼포켓몬",
-    "uuid": "c1887fba-a13f-416c-acff-09bc049cdf91"
+    "uuid": "31e2cc08-2aa1-4bba-b9a6-1757411b77c1"
   },
   {
     "id": 101,
@@ -2163,7 +2163,7 @@
     "height": "1.2m",
     "weight": "71.0kg",
     "category": "구체포켓몬",
-    "uuid": "c1887fba-a13f-416c-acff-09bc049cdf91"
+    "uuid": "17fa99b9-38ae-4d29-b1bc-b1e67211d8e8"
   },
   {
     "id": 102,
@@ -2178,7 +2178,7 @@
     "height": "0.4m",
     "weight": "2.5kg",
     "category": "알포켓몬",
-    "uuid": "ae9ec4f8-2769-412a-bd11-bba304c663c7"
+    "uuid": "eaf323ee-6347-46ae-8de8-1f08d1269723"
   },
   {
     "id": 103,
@@ -2193,7 +2193,7 @@
     "height": "2.0m",
     "weight": "120.0kg",
     "category": "야자열매포켓몬",
-    "uuid": "4ee488ef-50a1-4c86-9dc9-38616c9b9db8"
+    "uuid": "89f5d3c7-99b2-4355-ae8d-02235f1ce0d2"
   },
   {
     "id": 103,
@@ -2208,7 +2208,7 @@
     "height": "10.9m",
     "weight": "415.6kg",
     "category": "야자열매포켓몬",
-    "uuid": "4ee488ef-50a1-4c86-9dc9-38616c9b9db8"
+    "uuid": "55beec26-ed78-47a5-819c-f889eafa50e6"
   },
   {
     "id": 104,
@@ -2222,7 +2222,7 @@
     "height": "0.4m",
     "weight": "6.5kg",
     "category": "고독포켓몬",
-    "uuid": "531e0b79-f58f-469d-ba40-a173715e1180"
+    "uuid": "397b6785-6585-48d7-acef-74ad72bc5c02"
   },
   {
     "id": 105,
@@ -2236,7 +2236,7 @@
     "height": "1.0m",
     "weight": "45.0kg",
     "category": "뼈다귀포켓몬",
-    "uuid": "e31408ed-8b57-4fff-8223-2a526a89ef8e"
+    "uuid": "2226d9bd-42c1-4f7d-8c61-57d50a1205a6"
   },
   {
     "id": 105,
@@ -2251,7 +2251,7 @@
     "height": "1.0m",
     "weight": "34.0kg",
     "category": "뼈다귀포켓몬",
-    "uuid": "e31408ed-8b57-4fff-8223-2a526a89ef8e"
+    "uuid": "cb64866f-3d16-40e0-8bea-33cdbbde52ea"
   },
   {
     "id": 106,
@@ -2265,7 +2265,7 @@
     "height": "1.5m",
     "weight": "49.8kg",
     "category": "킥포켓몬",
-    "uuid": "51ceb97b-e57a-413c-81df-2ea0d557338d"
+    "uuid": "b22d0763-aca5-43d5-8098-f5e8c03af17e"
   },
   {
     "id": 107,
@@ -2279,7 +2279,7 @@
     "height": "1.4m",
     "weight": "50.2kg",
     "category": "펀치포켓몬",
-    "uuid": "d88c5fc2-a09f-47f4-9106-c49075aa84f2"
+    "uuid": "588309cd-e225-46e0-8a82-2d529975667f"
   },
   {
     "id": 108,
@@ -2293,7 +2293,7 @@
     "height": "1.2m",
     "weight": "65.5kg",
     "category": "핥기포켓몬",
-    "uuid": "dd9d6e62-f228-4853-801a-46c165f32384"
+    "uuid": "d1d2260d-7182-4a79-883e-f88d52f57284"
   },
   {
     "id": 109,
@@ -2307,7 +2307,7 @@
     "height": "0.6m",
     "weight": "1.0kg",
     "category": "독가스포켓몬",
-    "uuid": "1c06fe86-25c3-4e4e-9276-b6d5e925d323"
+    "uuid": "8bdc81a6-985f-4447-959d-64af3bbbd120"
   },
   {
     "id": 110,
@@ -2321,7 +2321,7 @@
     "height": "1.2m",
     "weight": "9.5kg",
     "category": "독가스포켓몬",
-    "uuid": "2ee15702-91e1-474c-8de3-76ee4845dca7"
+    "uuid": "9771fd26-020c-495f-8e5d-07dca837b461"
   },
   {
     "id": 110,
@@ -2336,7 +2336,7 @@
     "height": "3.0m",
     "weight": "16.0kg",
     "category": "독가스포켓몬",
-    "uuid": "2ee15702-91e1-474c-8de3-76ee4845dca7"
+    "uuid": "8267b866-fd8f-42fe-8386-96e15d4b2fef"
   },
   {
     "id": 111,
@@ -2351,7 +2351,7 @@
     "height": "1.0m",
     "weight": "115.0kg",
     "category": "뿔포켓몬",
-    "uuid": "9b15c590-1d42-4438-a27e-fddd2c92fd24"
+    "uuid": "8c32d703-319e-4e18-b25a-8060b80684fa"
   },
   {
     "id": 112,
@@ -2366,7 +2366,7 @@
     "height": "1.9m",
     "weight": "120.0kg",
     "category": "드릴포켓몬",
-    "uuid": "f40ff8fb-10ec-4d7b-b026-076c29fae2d6"
+    "uuid": "86cc31e2-d3ab-4eca-9e78-0a8ce68fe514"
   },
   {
     "id": 113,
@@ -2380,7 +2380,7 @@
     "height": "1.1m",
     "weight": "34.6kg",
     "category": "알포켓몬",
-    "uuid": "c5317654-edda-4086-a7f1-23929b587899"
+    "uuid": "99618e9a-a37e-4c5b-8807-bc326911751c"
   },
   {
     "id": 114,
@@ -2394,7 +2394,7 @@
     "height": "1.0m",
     "weight": "35.0kg",
     "category": "넝쿨포켓몬",
-    "uuid": "c62839ea-9617-41e8-a532-cbaadec4d16c"
+    "uuid": "36b6d5fb-5f77-4e8d-a338-563c00d3cfe3"
   },
   {
     "id": 115,
@@ -2408,7 +2408,7 @@
     "height": "2.2m",
     "weight": "80.0kg",
     "category": "가족포켓몬",
-    "uuid": "28de2d2a-94f1-46fd-8e86-759d2449ca88"
+    "uuid": "0aa6c659-b02c-421f-9ac1-661442373489"
   },
   {
     "id": 115,
@@ -2422,7 +2422,7 @@
     "height": "2.2m",
     "weight": "100.0kg",
     "category": "가족포켓몬",
-    "uuid": "42671a73-4680-450b-9bbc-287fc0eeba60"
+    "uuid": "050f8880-a97b-484e-a640-6287a4534269"
   },
   {
     "id": 116,
@@ -2436,7 +2436,7 @@
     "height": "0.4m",
     "weight": "8.0kg",
     "category": "드래곤포켓몬",
-    "uuid": "d7afe5d7-5f56-4efe-80f4-d5e80adcf20a"
+    "uuid": "df249dc4-e776-4076-9f52-f9199a8912b4"
   },
   {
     "id": 117,
@@ -2450,7 +2450,7 @@
     "height": "1.2m",
     "weight": "25.0kg",
     "category": "드래곤포켓몬",
-    "uuid": "6aab3322-5785-4454-b09b-87e9ecc38b6a"
+    "uuid": "55ceb9b7-0836-469e-82b9-ee13575d9eee"
   },
   {
     "id": 118,
@@ -2464,7 +2464,7 @@
     "height": "0.6m",
     "weight": "15.0kg",
     "category": "금붕어포켓몬",
-    "uuid": "54c2a092-970e-4ae5-9dc1-e984ee6a3a40"
+    "uuid": "31ffecd2-70cb-4f9a-a58d-63f90d9ba2aa"
   },
   {
     "id": 119,
@@ -2478,7 +2478,7 @@
     "height": "1.3m",
     "weight": "39.0kg",
     "category": "금붕어포켓몬",
-    "uuid": "572838d1-5848-42b1-8e38-a3729c0170b3"
+    "uuid": "71cb30a2-154c-4710-87aa-636c05b2d4ea"
   },
   {
     "id": 120,
@@ -2492,7 +2492,7 @@
     "height": "0.8m",
     "weight": "34.5kg",
     "category": "별포켓몬",
-    "uuid": "32324c11-5819-4b76-ab39-17875eb8eac7"
+    "uuid": "91ca61a9-22d4-4675-bf74-8c76a05b93c7"
   },
   {
     "id": 121,
@@ -2507,7 +2507,7 @@
     "height": "1.1m",
     "weight": "80.0kg",
     "category": "수수께끼포켓몬",
-    "uuid": "e996b591-8131-4375-add5-2e0122b7d8de"
+    "uuid": "8b470283-25a6-4595-8b66-bcf33f399cd3"
   },
   {
     "id": 121,
@@ -2522,7 +2522,7 @@
     "height": "2.3m",
     "weight": "80.0kg",
     "category": "수수께끼포켓몬",
-    "uuid": "84d8e0c8-0dc1-4b86-891b-55f4fddee6af"
+    "uuid": "c1e61e8c-0d4b-40ef-b669-95f015601e9c"
   },
   {
     "id": 122,
@@ -2537,7 +2537,7 @@
     "height": "1.3m",
     "weight": "54.5kg",
     "category": "배리어포켓몬",
-    "uuid": "2dd9ca42-6452-49a4-a4aa-07b0d952a85d"
+    "uuid": "11b99f1b-fc37-4344-98b1-431e645e3f76"
   },
   {
     "id": 122,
@@ -2552,7 +2552,7 @@
     "height": "1.4m",
     "weight": "56.8kg",
     "category": "댄스포켓몬",
-    "uuid": "2dd9ca42-6452-49a4-a4aa-07b0d952a85d"
+    "uuid": "3954d132-8c2a-481e-a72f-38aa6c1d6161"
   },
   {
     "id": 123,
@@ -2567,7 +2567,7 @@
     "height": "1.5m",
     "weight": "56.0kg",
     "category": "버마재비포켓몬",
-    "uuid": "c2710e6f-d8c6-4a4c-972a-b24729795fe0"
+    "uuid": "26f40bf5-2576-4fe8-ab67-d6816f9534df"
   },
   {
     "id": 124,
@@ -2582,7 +2582,7 @@
     "height": "1.4m",
     "weight": "40.6kg",
     "category": "인간형태포켓몬",
-    "uuid": "fe16ef6f-2eab-42b9-b4de-a9fba3ee7c2f"
+    "uuid": "1e8460b8-507e-466f-9782-941425d8824f"
   },
   {
     "id": 125,
@@ -2596,7 +2596,7 @@
     "height": "1.1m",
     "weight": "30.0kg",
     "category": "전기포켓몬",
-    "uuid": "6af8684c-6eee-4a13-8e79-3c13c039b802"
+    "uuid": "43d9b2e7-1934-4e23-b6d9-7f84aa24398c"
   },
   {
     "id": 126,
@@ -2610,7 +2610,7 @@
     "height": "1.3m",
     "weight": "44.5kg",
     "category": "불뿜기포켓몬",
-    "uuid": "fd2572c1-f087-4587-8165-9a73c922db8f"
+    "uuid": "ec9c31ee-1bcb-45c2-9a66-72ba59a62dd4"
   },
   {
     "id": 127,
@@ -2624,7 +2624,7 @@
     "height": "1.5m",
     "weight": "55.0kg",
     "category": "뿔집게포켓몬",
-    "uuid": "ec3bbb13-94f2-4cd1-be30-57bbb5103904"
+    "uuid": "f4e85261-beeb-4e02-a046-0f0d7138d325"
   },
   {
     "id": 127,
@@ -2639,7 +2639,7 @@
     "height": "1.7m",
     "weight": "59.0kg",
     "category": "뿔집게포켓몬",
-    "uuid": "3519ee33-00d2-4c83-8167-d82bc32d6325"
+    "uuid": "074bd36c-6d0c-4c9b-a9f9-e810145424fe"
   },
   {
     "id": 128,
@@ -2653,7 +2653,7 @@
     "height": "1.4m",
     "weight": "88.4kg",
     "category": "성난소포켓몬",
-    "uuid": "eaa3a386-91f9-4d80-a35e-4dd7c8ea7a94"
+    "uuid": "f6e2f3eb-7002-4280-93b3-3c659d2027b4"
   },
   {
     "id": 128,
@@ -2667,7 +2667,7 @@
     "height": "1.4m",
     "weight": "115.0kg",
     "category": "성난소포켓몬",
-    "uuid": "eaa3a386-91f9-4d80-a35e-4dd7c8ea7a94"
+    "uuid": "15042739-a87b-4acf-b4f7-c0729dd796a6"
   },
   {
     "id": 128,
@@ -2682,7 +2682,7 @@
     "height": "1.4m",
     "weight": "85.0kg",
     "category": "성난소포켓몬",
-    "uuid": "eaa3a386-91f9-4d80-a35e-4dd7c8ea7a94"
+    "uuid": "18b83823-d80f-4722-be1e-d3efb337632a"
   },
   {
     "id": 128,
@@ -2697,7 +2697,7 @@
     "height": "1.4m",
     "weight": "110.0kg",
     "category": "성난소포켓몬",
-    "uuid": "eaa3a386-91f9-4d80-a35e-4dd7c8ea7a94"
+    "uuid": "78c628fe-24ea-4ff1-b89d-d40dec9587f8"
   },
   {
     "id": 129,
@@ -2711,7 +2711,7 @@
     "height": "0.9m",
     "weight": "10.0kg",
     "category": "물고기포켓몬",
-    "uuid": "097064ce-cc39-4d41-a602-617cbf718655"
+    "uuid": "bdbc63f3-2933-4b00-8e82-04378cf635f2"
   },
   {
     "id": 130,
@@ -2726,7 +2726,7 @@
     "height": "6.5m",
     "weight": "235.0kg",
     "category": "흉악포켓몬",
-    "uuid": "d1ac736c-1fbf-4b26-9a62-f1f2aba91696"
+    "uuid": "7e715e06-1144-4d6c-b576-05cb634fca3d"
   },
   {
     "id": 130,
@@ -2741,7 +2741,7 @@
     "height": "6.5m",
     "weight": "305.0kg",
     "category": "흉악포켓몬",
-    "uuid": "51f333e8-58e6-4b7f-bb8d-a148ac997bfb"
+    "uuid": "725aadd5-0094-423a-84b2-db9d3aa8e402"
   },
   {
     "id": 131,
@@ -2756,7 +2756,7 @@
     "height": "2.5m",
     "weight": "220.0kg",
     "category": "탈것포켓몬",
-    "uuid": "bbb10fe5-b96d-4576-b574-a9eb312b0373"
+    "uuid": "06b7c6b3-19a0-4816-94c8-14cb4d44e1ce"
   },
   {
     "id": 131,
@@ -2771,7 +2771,7 @@
     "height": "24.0m~",
     "weight": "???.?kg",
     "category": "탈것포켓몬",
-    "uuid": "bbb10fe5-b96d-4576-b574-a9eb312b0373"
+    "uuid": "501bdf99-3e51-4dbe-b1af-10175379b1fd"
   },
   {
     "id": 132,
@@ -2785,7 +2785,7 @@
     "height": "0.3m",
     "weight": "4.0kg",
     "category": "변신포켓몬",
-    "uuid": "07a27e9a-4697-4848-9ae2-e1f07c582727"
+    "uuid": "c2b725d4-162b-4a07-91b7-f9a7ed746d42"
   },
   {
     "id": 133,
@@ -2799,7 +2799,7 @@
     "height": "0.3m",
     "weight": "6.5kg",
     "category": "진화포켓몬",
-    "uuid": "27a4f03c-4ab5-42aa-ab28-a287a4e33f01"
+    "uuid": "91d49a23-2fa9-4849-97e4-c838d60735ed"
   },
   {
     "id": 133,
@@ -2813,7 +2813,7 @@
     "height": "18.0m~",
     "weight": "???.?kg",
     "category": "진화포켓몬",
-    "uuid": "27a4f03c-4ab5-42aa-ab28-a287a4e33f01"
+    "uuid": "0305cd21-a769-4d7f-a216-654bdf3efada"
   },
   {
     "id": 134,
@@ -2827,7 +2827,7 @@
     "height": "1.0m",
     "weight": "29.0kg",
     "category": "거품뿜기포켓몬",
-    "uuid": "4de5c2ec-297b-4483-90d9-e842a0fc3de7"
+    "uuid": "9aa3c76a-3c47-4225-8a4f-492c4984454f"
   },
   {
     "id": 135,
@@ -2841,7 +2841,7 @@
     "height": "0.8m",
     "weight": "24.5kg",
     "category": "번개포켓몬",
-    "uuid": "5b05a193-2069-4671-878c-bf119f3d9c5b"
+    "uuid": "2316528c-17a1-4998-bbde-b1b91f70da1c"
   },
   {
     "id": 136,
@@ -2855,7 +2855,7 @@
     "height": "0.9m",
     "weight": "25.0kg",
     "category": "불꽃포켓몬",
-    "uuid": "336fa70e-210f-467e-8787-3486356586a3"
+    "uuid": "46bdfd22-8ec2-4936-ab05-bb637100c782"
   },
   {
     "id": 137,
@@ -2869,7 +2869,7 @@
     "height": "0.8m",
     "weight": "36.5kg",
     "category": "가상포켓몬",
-    "uuid": "a0eafe39-0186-4ee1-95cb-e277d827d8a6"
+    "uuid": "b7b6b301-1b58-4247-a185-69ab8dfd393c"
   },
   {
     "id": 138,
@@ -2884,7 +2884,7 @@
     "height": "0.4m",
     "weight": "7.5kg",
     "category": "소용돌이포켓몬",
-    "uuid": "5f5b9014-dd73-41c7-971c-b949172890a7"
+    "uuid": "819992a9-c8f7-4eff-b4e5-de6ca7df6e74"
   },
   {
     "id": 139,
@@ -2899,7 +2899,7 @@
     "height": "1.0m",
     "weight": "35.0kg",
     "category": "소용돌이포켓몬",
-    "uuid": "b50b04da-8815-45a8-93c2-dd9f5b3f7c04"
+    "uuid": "8f011859-df60-4f36-814b-9beb7b3983da"
   },
   {
     "id": 140,
@@ -2914,7 +2914,7 @@
     "height": "0.5m",
     "weight": "11.5kg",
     "category": "껍질포켓몬",
-    "uuid": "c5c2e1e5-b33b-4ebf-9eb7-3258319c1daa"
+    "uuid": "829755ae-ecbe-4d5a-8b2c-49fdfcf93e45"
   },
   {
     "id": 141,
@@ -2929,7 +2929,7 @@
     "height": "1.3m",
     "weight": "40.5kg",
     "category": "껍질포켓몬",
-    "uuid": "a6eba9fb-c1f0-42ac-82b9-1efbd39a457f"
+    "uuid": "2e08ee85-f9ae-49c9-be43-4175212eb5a3"
   },
   {
     "id": 142,
@@ -2944,7 +2944,7 @@
     "height": "1.8m",
     "weight": "59.0kg",
     "category": "화석포켓몬",
-    "uuid": "0e7b4f1e-feb8-47de-aba6-e608e2019630"
+    "uuid": "2c459065-12d5-4e40-bf27-526c4d8e931e"
   },
   {
     "id": 142,
@@ -2959,7 +2959,7 @@
     "height": "2.1m",
     "weight": "79.0kg",
     "category": "화석포켓몬",
-    "uuid": "a8e8340a-a9f1-4f75-b865-5aec42d7741d"
+    "uuid": "41f7f8b1-7314-41d2-995f-d086fc4b4238"
   },
   {
     "id": 143,
@@ -2973,7 +2973,7 @@
     "height": "2.1m",
     "weight": "460.0kg",
     "category": "졸음포켓몬",
-    "uuid": "b136ad66-182e-4004-8b8f-824d539b613d"
+    "uuid": "3ef13fe1-2d6a-46bd-b07e-dff56fcbebf8"
   },
   {
     "id": 143,
@@ -2987,7 +2987,7 @@
     "height": "35.0m~",
     "weight": "???.?kg",
     "category": "졸음포켓몬",
-    "uuid": "b136ad66-182e-4004-8b8f-824d539b613d"
+    "uuid": "9d3ab96d-a410-4bba-8234-a5c6200258eb"
   },
   {
     "id": 144,
@@ -3002,7 +3002,7 @@
     "height": "1.7m",
     "weight": "55.4kg",
     "category": "냉동포켓몬",
-    "uuid": "72e4f908-e4b7-49cb-a925-ed318fb3e823"
+    "uuid": "75df938f-4b84-4fcc-bd68-5445a07ecd03"
   },
   {
     "id": 144,
@@ -3017,7 +3017,7 @@
     "height": "1.7m",
     "weight": "50.9kg",
     "category": "냉혹포켓몬",
-    "uuid": "72e4f908-e4b7-49cb-a925-ed318fb3e823"
+    "uuid": "56c3865e-c763-414f-9427-1a906d7e4115"
   },
   {
     "id": 145,
@@ -3032,7 +3032,7 @@
     "height": "1.6m",
     "weight": "52.6kg",
     "category": "전기포켓몬",
-    "uuid": "6a9e2059-0142-4146-ab53-cdda9960e3ba"
+    "uuid": "f3a9db8c-623e-4890-be7d-97030676dc47"
   },
   {
     "id": 145,
@@ -3047,7 +3047,7 @@
     "height": "1.6m",
     "weight": "58.2kg",
     "category": "건각포켓몬",
-    "uuid": "6a9e2059-0142-4146-ab53-cdda9960e3ba"
+    "uuid": "eea75766-f060-4fb7-b97b-ee989de201ad"
   },
   {
     "id": 146,
@@ -3062,7 +3062,7 @@
     "height": "2.0m",
     "weight": "60.0kg",
     "category": "화염포켓몬",
-    "uuid": "7d7a16aa-db3d-4405-a5c5-53bbf1766a31"
+    "uuid": "83e775e7-3671-4d94-9e00-9b794e209913"
   },
   {
     "id": 146,
@@ -3077,7 +3077,7 @@
     "height": "2.0m",
     "weight": "66.0kg",
     "category": "사악포켓몬",
-    "uuid": "7d7a16aa-db3d-4405-a5c5-53bbf1766a31"
+    "uuid": "bded4d99-e2d2-49a4-86c9-f45d6d4076a6"
   },
   {
     "id": 147,
@@ -3091,7 +3091,7 @@
     "height": "1.8m",
     "weight": "3.3kg",
     "category": "드래곤포켓몬",
-    "uuid": "a154823a-8697-44b7-b52c-c1e203df9430"
+    "uuid": "cb906706-8cfb-463b-b469-a2271841b4e9"
   },
   {
     "id": 148,
@@ -3105,7 +3105,7 @@
     "height": "4.0m",
     "weight": "16.5kg",
     "category": "드래곤포켓몬",
-    "uuid": "8d2ceb80-d46a-476d-a54e-ef2abfd0ad8d"
+    "uuid": "242e15e7-4fc1-4a29-88c5-e91231a6a39b"
   },
   {
     "id": 149,
@@ -3120,7 +3120,7 @@
     "height": "2.2m",
     "weight": "210.0kg",
     "category": "드래곤포켓몬",
-    "uuid": "7867713f-9fad-4ef2-b9b8-9c922d6899e1"
+    "uuid": "4469f382-157e-4fea-9b42-40468ee4ca1f"
   },
   {
     "id": 149,
@@ -3135,7 +3135,7 @@
     "height": "2.2m",
     "weight": "290.0kg",
     "category": "드래곤포켓몬",
-    "uuid": "2f520796-f297-4123-9360-c566d6a0295f"
+    "uuid": "c17c3b22-9716-4e27-8246-978825bb72ba"
   },
   {
     "id": 150,
@@ -3149,7 +3149,7 @@
     "height": "2.0m",
     "weight": "122.0kg",
     "category": "유전자포켓몬",
-    "uuid": "a919c8ba-3911-4e49-a691-2655542f11f4"
+    "uuid": "e4e8f37d-2696-481e-8221-7dd2c29a4ad8"
   },
   {
     "id": 150,
@@ -3164,7 +3164,7 @@
     "height": "2.3m",
     "weight": "127.0kg",
     "category": "유전자포켓몬",
-    "uuid": "ec5d98e7-c39e-43ed-8285-f80b649b6c57"
+    "uuid": "4382d0b1-5681-46da-97cf-b1f170748fce"
   },
   {
     "id": 150,
@@ -3178,7 +3178,7 @@
     "height": "1.5m",
     "weight": "33.0kg",
     "category": "유전자포켓몬",
-    "uuid": "d215dbe8-4db5-4c22-adaa-4cc7bd704b97"
+    "uuid": "9e07d64c-99e9-41eb-95a5-c441798d8a2a"
   },
   {
     "id": 151,
@@ -3192,6 +3192,6 @@
     "height": "0.4m",
     "weight": "4.0kg",
     "category": "신종포켓몬",
-    "uuid": "477e7782-bfc9-44d6-9040-c19b9e6f1d10"
+    "uuid": "8091fce5-f83d-4398-9177-7da946e28bfe"
   }
 ]
