@@ -63,7 +63,7 @@ export const PokemonGrid: React.FC<PokemonGridProps> = ({ pokemons, capturedMap,
         <div className="pokemon-grid">
           {filteredPokemons.map((pokemon, index) => (
             <div 
-              key={`${pokemon.id}-${pokemon.subtitle || 'base'}`} 
+              key={pokemon.uuid} 
               className="animate-fade-in" 
               style={{ animationDelay: `${Math.min(index * 0.05, 0.5)}s` }}
             >
