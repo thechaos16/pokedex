@@ -4,12 +4,16 @@ import type { Pokemon } from './types/pokemon';
 import { PokemonGrid } from './components/PokemonGrid';
 import { PokemonDetail } from './components/PokemonDetail';
 import { CameraTab } from './components/CameraTab';
-import { Database, LayoutGrid, Camera } from 'lucide-react';
+import { Database, LayoutGrid, Camera, LogIn, LogOut } from 'lucide-react';
+import { useAuth } from './contexts/AuthContext';
+import { useCapturedPokemon } from './hooks/useCapturedPokemon';
 
 function App() {
   const [selectedPokemon, setSelectedPokemon] = useState<Pokemon | null>(null);
   const [activeTab, setActiveTab] = useState<'grid' | 'camera'>('grid');
   const [autoPlayMode, setAutoPlayMode] = useState(false);
+  const { user, signInWithGoogle, signOut } = useAuth();
+  const { capturedMap, toggleCapture } = useCapturedPokemon();
 
   // Parse the data correctly
   const pokemons: Pokemon[] = (pokemonData as any[]).map(p => ({
@@ -27,11 +31,24 @@ function App() {
   return (
     <>
       <header className="glass-header app-header">
-        <div className="container">
+        <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <h1 className="app-title">
             <Database size={32} color="#3b82f6" />
             Pokédex
           </h1>
+          <div className="auth-section">
+            {user ? (
+              <button onClick={signOut} className="tab-btn" style={{ background: 'var(--surface-color-light)' }}>
+                <LogOut size={20} />
+                <span>Logout</span>
+              </button>
+            ) : (
+              <button onClick={signInWithGoogle} className="tab-btn" style={{ background: 'var(--surface-color-light)', color: 'var(--type-water)' }}>
+                <LogIn size={20} />
+                <span>Login</span>
+              </button>
+            )}
+          </div>
         </div>
       </header>
 
@@ -57,6 +74,7 @@ function App() {
           {activeTab === 'grid' ? (
             <PokemonGrid 
               pokemons={pokemons} 
+              capturedMap={capturedMap}
               onPokemonClick={(pokemon) => {
                 setAutoPlayMode(false);
                 setSelectedPokemon(pokemon);
@@ -77,8 +95,11 @@ function App() {
       {selectedPokemon && (
         <PokemonDetail 
           pokemon={selectedPokemon} 
+          isCaptured={capturedMap[selectedPokemon.id] || false}
+          onToggleCapture={() => toggleCapture(selectedPokemon.id)}
           onClose={() => setSelectedPokemon(null)} 
           autoPlayTts={autoPlayMode}
+          isLoggedIn={!!user}
         />
       )}
     </>

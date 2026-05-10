@@ -6,10 +6,11 @@ import './PokemonGrid.css';
 
 interface PokemonGridProps {
   pokemons: Pokemon[];
+  capturedMap: Record<number, boolean>;
   onPokemonClick: (pokemon: Pokemon) => void;
 }
 
-export const PokemonGrid: React.FC<PokemonGridProps> = ({ pokemons, onPokemonClick }) => {
+export const PokemonGrid: React.FC<PokemonGridProps> = ({ pokemons, capturedMap, onPokemonClick }) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredPokemons = pokemons.filter(pokemon => 
@@ -46,6 +47,7 @@ export const PokemonGrid: React.FC<PokemonGridProps> = ({ pokemons, onPokemonCli
             >
               <PokemonCard 
                 pokemon={pokemon} 
+                isCaptured={capturedMap[pokemon.id] || false}
                 onClick={onPokemonClick} 
               />
             </div>

@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import type { Pokemon } from '../types/pokemon';
-import { X, ArrowLeft, Ruler, Weight, Volume2, Square } from 'lucide-react';
+import { X, ArrowLeft, Ruler, Weight, Volume2, Square, CheckSquare, Square as SquareOutline } from 'lucide-react';
 import './PokemonDetail.css';
 
 interface PokemonDetailProps {
   pokemon: Pokemon;
+  isCaptured: boolean;
+  onToggleCapture: () => void;
   onClose: () => void;
   autoPlayTts?: boolean;
+  isLoggedIn: boolean;
 }
 
 const typeColorMap: Record<string, string> = {
@@ -30,7 +33,7 @@ const typeColorMap: Record<string, string> = {
   '페어리': 'var(--type-fairy)',
 };
 
-export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose, autoPlayTts = false }) => {
+export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, isCaptured, onToggleCapture, onClose, autoPlayTts = false, isLoggedIn }) => {
   const primaryType = pokemon.types[0];
   const color = typeColorMap[primaryType] || 'var(--surface-color-light)';
   const [isPlaying, setIsPlaying] = useState(false);
@@ -109,6 +112,36 @@ export const PokemonDetail: React.FC<PokemonDetailProps> = ({ pokemon, onClose, 
             </h2>
             {pokemon.subtitle && <div className="modal-subtitle" style={{fontSize: '1.4rem', color: 'var(--text-secondary)', marginBottom: '8px', fontWeight: 600}}>{pokemon.subtitle}</div>}
             <div className="modal-category">{pokemon.category}</div>
+
+            {isLoggedIn && (
+              <div 
+                className="capture-toggle glass-panel" 
+                onClick={onToggleCapture} 
+                style={{ 
+                  display: 'flex', 
+                  alignItems: 'center', 
+                  gap: '8px', 
+                  cursor: 'pointer', 
+                  marginTop: '12px', 
+                  marginBottom: '16px',
+                  padding: '10px 16px', 
+                  borderRadius: '12px', 
+                  width: 'fit-content',
+                  transition: 'all 0.2s ease',
+                  backgroundColor: isCaptured ? 'rgba(59, 130, 246, 0.1)' : 'var(--surface-color)',
+                  border: isCaptured ? '1px solid rgba(59, 130, 246, 0.3)' : '1px solid var(--border-color)'
+                }}
+              >
+                {isCaptured ? <CheckSquare size={22} color="#3b82f6" /> : <SquareOutline size={22} color="var(--text-secondary)" />}
+                <span style={{ 
+                  fontWeight: 600, 
+                  color: isCaptured ? '#3b82f6' : 'var(--text-primary)',
+                  fontSize: '1.1rem'
+                }}>
+                  {isCaptured ? 'Captured' : 'Mark as Captured'}
+                </span>
+              </div>
+            )}
             
             <div className="pokemon-types modal-types">
               {pokemon.types.map(type => (

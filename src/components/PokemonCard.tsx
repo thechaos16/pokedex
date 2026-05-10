@@ -1,9 +1,11 @@
 import React from 'react';
 import type { Pokemon } from '../types/pokemon';
+import { CheckCircle } from 'lucide-react';
 import './PokemonCard.css';
 
 interface PokemonCardProps {
   pokemon: Pokemon;
+  isCaptured: boolean;
   onClick: (pokemon: Pokemon) => void;
 }
 
@@ -29,7 +31,7 @@ const typeColorMap: Record<string, string> = {
   '페어리': 'var(--type-fairy)',
 };
 
-export const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon, onClick }) => {
+export const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon, isCaptured, onClick }) => {
   const primaryType = pokemon.types[0];
   const color = typeColorMap[primaryType] || 'var(--surface-color-light)';
   
@@ -40,6 +42,13 @@ export const PokemonCard: React.FC<PokemonCardProps> = ({ pokemon, onClick }) =>
       style={{ '--card-color': color } as React.CSSProperties}
     >
       <div className="pokemon-card-bg-gradient" />
+      
+      {isCaptured && (
+        <div className="captured-indicator" style={{ position: 'absolute', top: '12px', right: '12px', color: 'var(--type-water)', zIndex: 10 }}>
+          <CheckCircle size={24} fill="rgba(255,255,255,0.9)" />
+        </div>
+      )}
+
       <div className="pokemon-card-header">
         <span className="pokemon-id">
           #{String(pokemon.id).padStart(3, '0')}
