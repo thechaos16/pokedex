@@ -95,8 +95,9 @@ function App() {
       {selectedPokemon && (
         <PokemonDetail 
           pokemon={selectedPokemon} 
-          isCaptured={capturedMap[selectedPokemon.uuid] || false}
-          onToggleCapture={() => toggleCapture(selectedPokemon.uuid)}
+          isCaptured={!!capturedMap[selectedPokemon.uuid]}
+          capturedDetails={capturedMap[selectedPokemon.uuid]}
+          onToggleCapture={() => toggleCapture(selectedPokemon)}
           onClose={() => setSelectedPokemon(null)} 
           autoPlayTts={autoPlayMode}
           isLoggedIn={!!user}

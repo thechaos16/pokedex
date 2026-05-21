@@ -88,6 +88,7 @@ export class LivePokemonClassifier implements PokemonClassifier {
       const recordsToSave = precomputedEmbeddings.map((item: any) => ({
         id: `base-${item.pokemonId}-${item.name}`,
         pokemonId: item.pokemonId,
+        pokemonUuid: item.uuid,
         name: item.name,
         embedding: item.embedding,
         timestamp: Date.now()
@@ -104,7 +105,10 @@ export class LivePokemonClassifier implements PokemonClassifier {
     const recordsForMatch = allRecords.map(r => ({
       id: r.id,
       embedding: r.embedding,
-      metadata: { pokemonId: r.pokemonId }
+      metadata: { 
+        pokemonId: r.pokemonId,
+        pokemonUuid: r.pokemonUuid
+      }
     }));
 
     let imageSrc: string | HTMLImageElement | HTMLCanvasElement;
@@ -131,10 +135,13 @@ export class LivePokemonClassifier implements PokemonClassifier {
       throw new Error("No embeddings found in the database to compare against.");
     }
 
+    const matchedPokemonUuid = match.record.metadata?.pokemonUuid;
     const matchedPokemonId = match.record.metadata?.pokemonId;
     
-    // Find the pokemon object in the list
-    const predictedPokemon = this.pokemons.find(p => p.id === matchedPokemonId) || this.pokemons[0];
+    // Find the pokemon object in the list using UUID first, then fallback to id
+    const predictedPokemon = this.pokemons.find(p => p.uuid === matchedPokemonUuid) || 
+                             this.pokemons.find(p => p.id === matchedPokemonId) || 
+                             this.pokemons[0];
 
     return {
       pokemon: predictedPokemon,

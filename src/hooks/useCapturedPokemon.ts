@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
 import { useAuth } from '../contexts/AuthContext';
+import type { Pokemon } from '../types/pokemon';
 
 export interface CapturedPokemon {
   id: string;
@@ -8,12 +9,16 @@ export interface CapturedPokemon {
   pokemon_id: string;
   captured: boolean;
   captured_time: string;
-  location: any;
+  location: { lat: number; lng: number } | null;
+  sex: string;
+  size: string;
+  weight: string;
+  image_url?: string;
 }
 
 export const useCapturedPokemon = () => {
   const { user } = useAuth();
-  const [capturedMap, setCapturedMap] = useState<Record<string, boolean>>({});
+  const [capturedMap, setCapturedMap] = useState<Record<string, CapturedPokemon>>({});
   const [isLoading, setIsLoading] = useState(false);
 
   const fetchCaptured = useCallback(async () => {
@@ -32,10 +37,10 @@ export const useCapturedPokemon = () => {
 
       if (error) throw error;
 
-      const newMap: Record<string, boolean> = {};
+      const newMap: Record<string, CapturedPokemon> = {};
       if (data) {
         data.forEach((row: CapturedPokemon) => {
-          newMap[row.pokemon_id] = true;
+          newMap[row.pokemon_id] = row;
         });
       }
       setCapturedMap(newMap);
@@ -50,42 +55,77 @@ export const useCapturedPokemon = () => {
     fetchCaptured();
   }, [fetchCaptured]);
 
-  const toggleCapture = async (pokemonUuid: string) => {
+  const toggleCapture = async (pokemon: Pokemon) => {
     if (!user) return;
 
-    const isCurrentlyCaptured = capturedMap[pokemonUuid] || false;
+    const pokemonUuid = pokemon.uuid;
+    const isCurrentlyCaptured = !!capturedMap[pokemonUuid];
     const newCapturedState = !isCurrentlyCaptured;
 
-    // Optimistic update
-    setCapturedMap(prev => ({
-      ...prev,
-      [pokemonUuid]: newCapturedState
-    }));
+    // Generate stats dynamically for the capture event
+    let sex = '♂ Male';
+    let size = pokemon.height;
+    let weight = pokemon.weight;
+
+    if (newCapturedState) {
+      // Parse base height and weight to introduce ±15% random variation
+      const heightNum = parseFloat(pokemon.height.replace(/[^0-9.]/g, '')) || 1.0;
+      const weightNum = parseFloat(pokemon.weight.replace(/[^0-9.]/g, '')) || 10.0;
+      
+      const heightVar = heightNum * (0.85 + Math.random() * 0.3);
+      const weightVar = weightNum * (0.85 + Math.random() * 0.3);
+      
+      size = `${heightVar.toFixed(2)}m`;
+      weight = `${weightVar.toFixed(1)}kg`;
+      sex = Math.random() > 0.5 ? '♂ Male' : '♀ Female';
+
+      // Optimistic update: Add details to capturedMap
+      setCapturedMap(prev => ({
+        ...prev,
+        [pokemonUuid]: {
+          id: 'temp-id',
+          user_id: user.id,
+          pokemon_id: pokemonUuid,
+          captured: true,
+          captured_time: new Date().toISOString(),
+          location: null,
+          sex,
+          size,
+          weight
+        }
+      }));
+    } else {
+      // Optimistic update: Remove from capturedMap
+      setCapturedMap(prev => {
+        const next = { ...prev };
+        delete next[pokemonUuid];
+        return next;
+      });
+    }
 
     try {
       let location = null;
       
-      // Get location only when capturing (not uncapturing)
-      if (newCapturedState && 'geolocation' in navigator) {
-        try {
-          const position = await new Promise<GeolocationPosition>((resolve, reject) => {
-            navigator.geolocation.getCurrentPosition(resolve, reject, {
-              timeout: 10000,
-              maximumAge: 0
+      if (newCapturedState) {
+        // Get geolocation if permitted
+        if ('geolocation' in navigator) {
+          try {
+            const position = await new Promise<GeolocationPosition>((resolve, reject) => {
+              navigator.geolocation.getCurrentPosition(resolve, reject, {
+                timeout: 10000,
+                maximumAge: 0
+              });
             });
-          });
-          location = {
-            lat: position.coords.latitude,
-            lng: position.coords.longitude
-          };
-        } catch (locErr) {
-          console.warn("Could not get geolocation", locErr);
-          // Proceed without location if denied or timeout
+            location = {
+              lat: position.coords.latitude,
+              lng: position.coords.longitude
+            };
+          } catch (locErr) {
+            console.warn("Could not get geolocation", locErr);
+          }
         }
-      }
 
-      if (!isCurrentlyCaptured) {
-        // Insert new capture
+        // Insert new capture with location and generated stats
         const { error } = await supabase
           .from('captured_pokemon')
           .insert([
@@ -93,12 +133,18 @@ export const useCapturedPokemon = () => {
               user_id: user.id,
               pokemon_id: pokemonUuid,
               captured: true,
-              location: location
+              location: location,
+              sex,
+              size,
+              weight
             }
           ]);
         if (error) throw error;
+        
+        // Fetch from DB to ensure exact timestamps/ids are loaded
+        fetchCaptured();
       } else {
-        // Remove or update capture to false
+        // Remove capture record
         const { error } = await supabase
           .from('captured_pokemon')
           .delete()
@@ -109,11 +155,8 @@ export const useCapturedPokemon = () => {
 
     } catch (err) {
       console.error('Error toggling capture:', err);
-      // Revert on error
-      setCapturedMap(prev => ({
-        ...prev,
-        [pokemonUuid]: isCurrentlyCaptured
-      }));
+      // Revert to stable fetched state on error
+      fetchCaptured();
     }
   };
 

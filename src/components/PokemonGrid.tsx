@@ -7,7 +7,7 @@ import './PokemonGrid.css';
 
 interface PokemonGridProps {
   pokemons: Pokemon[];
-  capturedMap: Record<string, boolean>;
+  capturedMap: Record<string, any>;
   onPokemonClick: (pokemon: Pokemon) => void;
 }
 

@@ -1,12 +1,13 @@
 export interface SavedEmbedding {
   id: string; 
   pokemonId?: number; 
+  pokemonUuid?: string;
   name: string;
   embedding: number[];
   timestamp: number;
 }
 
-const DB_NAME = 'PokemonVisionDB';
+const DB_NAME = 'PokemonVisionDB_v2';
 const STORE_NAME = 'embeddings';
 
 export class EmbeddingDatabase {
