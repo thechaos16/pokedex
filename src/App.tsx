@@ -13,7 +13,7 @@ function App() {
   const [activeTab, setActiveTab] = useState<'grid' | 'camera'>('grid');
   const [autoPlayMode, setAutoPlayMode] = useState(false);
   const { user, signInWithGoogle, signOut } = useAuth();
-  const { capturedMap, toggleCapture } = useCapturedPokemon();
+  const { capturedMap, toggleCapture, capturePokemon } = useCapturedPokemon();
 
   const pokemons: Pokemon[] = (pokemonData as any[]).map(p => ({
     id: p.id,
@@ -86,7 +86,10 @@ function App() {
               onClassify={(pokemon) => {
                 setAutoPlayMode(true);
                 setSelectedPokemon(pokemon);
-              }} 
+              }}
+              capturedMap={capturedMap}
+              capturePokemon={capturePokemon}
+              isLoggedIn={!!user}
             />
           )}
         </div>

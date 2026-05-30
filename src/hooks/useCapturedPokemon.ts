@@ -160,10 +160,98 @@ export const useCapturedPokemon = () => {
     }
   };
 
+  const capturePokemon = async (pokemon: Pokemon) => {
+    if (!user) return;
+
+    const pokemonUuid = pokemon.uuid;
+
+    // Generate stats dynamically for the capture event
+    const heightNum = parseFloat(pokemon.height.replace(/[^0-9.]/g, '')) || 1.0;
+    const weightNum = parseFloat(pokemon.weight.replace(/[^0-9.]/g, '')) || 10.0;
+    
+    const heightVar = heightNum * (0.85 + Math.random() * 0.3);
+    const weightVar = weightNum * (0.85 + Math.random() * 0.3);
+    
+    const size = `${heightVar.toFixed(2)}m`;
+    const weight = `${weightVar.toFixed(1)}kg`;
+    const sex = Math.random() > 0.5 ? '♂ Male' : '♀ Female';
+
+    // Optimistic update: Add/overwrite details in capturedMap
+    setCapturedMap(prev => ({
+      ...prev,
+      [pokemonUuid]: {
+        id: 'temp-id',
+        user_id: user.id,
+        pokemon_id: pokemonUuid,
+        captured: true,
+        captured_time: new Date().toISOString(),
+        location: null,
+        sex,
+        size,
+        weight
+      }
+    }));
+
+    try {
+      let location = null;
+      
+      if ('geolocation' in navigator) {
+        try {
+          const position = await new Promise<GeolocationPosition>((resolve, reject) => {
+            navigator.geolocation.getCurrentPosition(resolve, reject, {
+              timeout: 10000,
+              maximumAge: 0
+            });
+          });
+          location = {
+            lat: position.coords.latitude,
+            lng: position.coords.longitude
+          };
+        } catch (locErr) {
+          console.warn("Could not get geolocation", locErr);
+        }
+      }
+
+      // Check if it already exists, if so delete it first to overwrite it
+      const { error: deleteError } = await supabase
+        .from('captured_pokemon')
+        .delete()
+        .eq('user_id', user.id)
+        .eq('pokemon_id', pokemonUuid);
+
+      if (deleteError) throw deleteError;
+
+      // Insert new capture with location and generated stats
+      const { error } = await supabase
+        .from('captured_pokemon')
+        .insert([
+          {
+            user_id: user.id,
+            pokemon_id: pokemonUuid,
+            captured: true,
+            location: location,
+            sex,
+            size,
+            weight
+          }
+        ]);
+      if (error) throw error;
+      
+      // Fetch from DB to ensure exact database records are loaded
+      fetchCaptured();
+    } catch (err) {
+      console.error('Error capturing pokemon:', err);
+      // Revert to stable fetched state on error
+      fetchCaptured();
+      throw err;
+    }
+  };
+
   return {
     capturedMap,
     isLoading,
     toggleCapture,
+    capturePokemon,
     refresh: fetchCaptured
   };
 };
