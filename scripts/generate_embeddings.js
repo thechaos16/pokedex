@@ -14,10 +14,10 @@ async function generateEmbeddings() {
   const pokemonDataPath = path.resolve(__dirname, '../src/data/pokemon.json');
   const pokemonData = JSON.parse(fs.readFileSync(pokemonDataPath, 'utf8'));
 
-  // Get first 151 Pokemon (we want unique base IDs up to 151, wait, pokemon.json has duplicates for megas/alolans)
-  // Let's filter to where id <= 151 and subtitle is empty (base form)
-  const first151 = pokemonData.filter(p => p.id <= 151 && p.subtitle === '');
-  console.log(`Found ${first151.length} base Pokemon from Gen 1.`);
+  // Get all base Pokemon (we want unique base IDs where subtitle is empty)
+  // Let's filter to where subtitle is empty (base form)
+  const basePokemons = pokemonData.filter(p => p.subtitle === '');
+  console.log(`Found ${basePokemons.length} base Pokemon.`);
 
   console.log("Initializing model...");
   const extractor = await pipeline('image-feature-extraction', 'Xenova/clip-vit-base-patch32');
@@ -25,9 +25,9 @@ async function generateEmbeddings() {
   const embeddings = [];
 
   console.log("Generating embeddings...");
-  for (let i = 0; i < first151.length; i++) {
-    const pokemon = first151[i];
-    console.log(`Processing ${i + 1}/${first151.length}: ${pokemon.name}`);
+  for (let i = 0; i < basePokemons.length; i++) {
+    const pokemon = basePokemons[i];
+    console.log(`Processing ${i + 1}/${basePokemons.length}: ${pokemon.name}`);
     
     try {
       // transformers.js supports passing URLs directly for image pipelines in Node.js

@@ -28,10 +28,6 @@ def scrape_pokemon(url_index):
         
     pokedex_id = int(num_match.group(1))
     
-    # If we reached beyond generation 1, return a special signal
-    if pokedex_id > 151:
-        return "DONE"
-        
     # Extract name (excluding the p tags)
     name = ''.join(h3.find_all(text=True, recursive=False)).strip()
     
@@ -92,22 +88,26 @@ def main():
     pokemon_data = []
     url_index = 1
     
-    while True:
+    consecutive_failures = 0
+    max_consecutive_failures = 15
+    
+    while consecutive_failures < max_consecutive_failures:
         try:
             print(f"Scraping URL index {url_index}...")
             data = scrape_pokemon(url_index)
             
-            if data == "DONE":
-                print("Reached end of Generation 1.")
-                break
-            elif data is not None:
+            if data is not None:
                 pokemon_data.append(data)
+                consecutive_failures = 0
+            else:
+                consecutive_failures += 1
                 
             url_index += 1
-            time.sleep(0.1) # be nice
+            time.sleep(0.05) # fast but polite
             
         except Exception as e:
             print(f"Error scraping {url_index}: {e}")
+            consecutive_failures += 1
             url_index += 1
             
     with open('../src/data/pokemon.json', 'w', encoding='utf-8') as f:

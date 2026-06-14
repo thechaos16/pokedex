@@ -87,6 +87,19 @@ export class EmbeddingDatabase {
       request.onerror = () => reject(request.error);
     });
   }
+
+  async clear(): Promise<void> {
+    await this.init();
+    
+    return new Promise((resolve, reject) => {
+      const transaction = this.db!.transaction(STORE_NAME, 'readwrite');
+      const store = transaction.objectStore(STORE_NAME);
+      const request = store.clear();
+      
+      request.onsuccess = () => resolve();
+      request.onerror = () => reject(request.error);
+    });
+  }
 }
 
 export const embeddingDb = new EmbeddingDatabase();

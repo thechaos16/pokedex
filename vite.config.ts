@@ -30,7 +30,7 @@ export default defineConfig({
         ]
       },
       workbox: {
-        maximumFileSizeToCacheInBytes: 10000000 // 10 MiB to accommodate the embeddings JSON
+        maximumFileSizeToCacheInBytes: 20000000 // 20 MiB to accommodate the embeddings JSON
       }
     })
   ],

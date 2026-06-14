@@ -15,11 +15,20 @@ def main():
     with open(embeddings_file, 'r', encoding='utf-8') as f:
         embeddings = json.load(f)
         
+    # Generate consistent UUIDs
     for p in pokemons:
         p['uuid'] = str(uuid.uuid4())
         
+    # Map (id, subtitle) -> uuid
+    uuid_map = {(p['id'], p['subtitle']): p['uuid'] for p in pokemons}
+    
+    # Assign the matching Pokémon's UUID to the corresponding base form embedding
     for e in embeddings:
-        e['uuid'] = str(uuid.uuid4())
+        key = (e['pokemonId'], '')  # Precomputed embeddings are for base forms
+        if key in uuid_map:
+            e['uuid'] = uuid_map[key]
+        else:
+            e['uuid'] = str(uuid.uuid4())
             
     with open(pokemon_file, 'w', encoding='utf-8') as f:
         json.dump(pokemons, f, ensure_ascii=False, indent=2)

@@ -81,10 +81,11 @@ export class LivePokemonClassifier implements PokemonClassifier {
     // 2. Initialize the local database
     await embeddingDb.init();
 
-    // 3. Populate IndexedDB if it's empty
+    // 3. Populate IndexedDB if it doesn't match pre-computed embeddings size
     const count = await embeddingDb.getCount();
-    if (count === 0) {
+    if (count !== precomputedEmbeddings.length) {
       console.log('Populating IndexedDB with pre-computed embeddings...');
+      await embeddingDb.clear();
       const recordsToSave = precomputedEmbeddings.map((item: any) => ({
         id: `base-${item.pokemonId}-${item.name}`,
         pokemonId: item.pokemonId,
