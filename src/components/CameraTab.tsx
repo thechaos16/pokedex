@@ -249,12 +249,12 @@ export const CameraTab: React.FC<CameraTabProps> = ({
 
       if (videoAspectRatio > targetAspectRatio) {
         // Video is wider, crop the sides
-        sourceWidth = videoHeight * targetAspectRatio;
-        sourceX = (videoWidth - sourceWidth) / 2;
+        sourceWidth = Math.floor(videoHeight * targetAspectRatio);
+        sourceX = Math.floor((videoWidth - sourceWidth) / 2);
       } else if (videoAspectRatio < targetAspectRatio) {
         // Video is taller, crop the top/bottom
-        sourceHeight = videoWidth / targetAspectRatio;
-        sourceY = (videoHeight - sourceHeight) / 2;
+        sourceHeight = Math.floor(videoWidth / targetAspectRatio);
+        sourceY = Math.floor((videoHeight - sourceHeight) / 2);
       }
 
       const canvas = document.createElement('canvas');
@@ -297,10 +297,13 @@ export const CameraTab: React.FC<CameraTabProps> = ({
       });
 
       const canvas = document.createElement('canvas');
-      const cropX = (roi.x / 100) * img.width;
-      const cropY = (roi.y / 100) * img.height;
-      const cropW = (roi.w / 100) * img.width;
-      const cropH = (roi.h / 100) * img.height;
+      
+      // Calculate integer crop coordinates to prevent floating point inaccuracies
+      // and clamp them strictly to the image dimensions to avoid IndexSizeError.
+      const cropX = Math.max(0, Math.min(img.width - 1, Math.floor((roi.x / 100) * img.width)));
+      const cropY = Math.max(0, Math.min(img.height - 1, Math.floor((roi.y / 100) * img.height)));
+      const cropW = Math.max(1, Math.min(img.width - cropX, Math.floor((roi.w / 100) * img.width)));
+      const cropH = Math.max(1, Math.min(img.height - cropY, Math.floor((roi.h / 100) * img.height)));
 
       canvas.width = cropW;
       canvas.height = cropH;

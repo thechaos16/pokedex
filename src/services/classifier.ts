@@ -112,9 +112,8 @@ export class LivePokemonClassifier implements PokemonClassifier {
       }
     }));
 
-    let imageSrc: string | HTMLImageElement | HTMLCanvasElement;
+    let imageSrc: string;
     
-    // transformers.js does not natively support HTMLVideoElement, so draw it to a canvas first
     if (imageElement instanceof HTMLVideoElement) {
       const canvas = document.createElement('canvas');
       canvas.width = imageElement.videoWidth || 640;
@@ -126,8 +125,12 @@ export class LivePokemonClassifier implements PokemonClassifier {
       } else {
         throw new Error("Canvas 2D context is not available.");
       }
+    } else if (imageElement instanceof HTMLCanvasElement) {
+      imageSrc = imageElement.toDataURL('image/jpeg');
+    } else if (imageElement instanceof HTMLImageElement) {
+      imageSrc = imageElement.src;
     } else {
-      imageSrc = imageElement;
+      throw new Error("Unsupported image element type.");
     }
 
     const match = await this.visionClassifier.findClosestMatch(imageSrc, recordsForMatch);
