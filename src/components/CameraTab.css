@@ -405,6 +405,125 @@
   background: rgba(15, 23, 42, 0.7);
 }
 
+/* Region of Interest Crop Tool styles */
+.roi-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.roi-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  user-select: none;
+}
+
+.roi-box {
+  position: absolute;
+  cursor: move;
+  border: 2px solid #60a5fa;
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.65), 0 0 15px rgba(96, 165, 250, 0.4);
+  box-sizing: border-box;
+  touch-action: none;
+  border-radius: 4px;
+}
+
+.roi-box-outline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px dashed rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+}
+
+.roi-box.static {
+  cursor: default;
+  border: 2px dashed rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.45);
+}
+
+.roi-box.static .roi-box-outline {
+  display: none;
+}
+
+.roi-handle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background: #ffffff;
+  border: 3px solid #3b82f6;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.15s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 0.15s;
+  z-index: 5;
+}
+
+.roi-handle:hover, .roi-handle:active {
+  background-color: #3b82f6;
+  border-color: #ffffff;
+}
+
+.roi-handle.nw {
+  top: 0;
+  left: 0;
+  cursor: nwse-resize;
+  transform: translate(-50%, -50%);
+}
+.roi-handle.nw:hover, .roi-handle.nw:active {
+  transform: translate(-50%, -50%) scale(1.3);
+}
+
+.roi-handle.ne {
+  top: 0;
+  right: 0;
+  cursor: nesw-resize;
+  transform: translate(50%, -50%);
+}
+.roi-handle.ne:hover, .roi-handle.ne:active {
+  transform: translate(50%, -50%) scale(1.3);
+}
+
+.roi-handle.se {
+  bottom: 0;
+  right: 0;
+  cursor: nwse-resize;
+  transform: translate(50%, 50%);
+}
+.roi-handle.se:hover, .roi-handle.se:active {
+  transform: translate(50%, 50%) scale(1.3);
+}
+
+.roi-handle.sw {
+  bottom: 0;
+  left: 0;
+  cursor: nesw-resize;
+  transform: translate(-50%, 50%);
+}
+.roi-handle.sw:hover, .roi-handle.sw:active {
+  transform: translate(-50%, 50%) scale(1.3);
+}
+
+.roi-controls {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  width: 100%;
+}
+
+.roi-controls .action-btn {
+  flex: 1;
+  max-width: 180px;
+}
+
 @media (max-width: 580px) {
   .detected-content {
     flex-direction: column;
@@ -418,5 +537,8 @@
   .detected-actions {
     grid-template-columns: 1fr;
     gap: 10px;
+  }
+  .roi-controls {
+    padding: 0 16px;
   }
 }

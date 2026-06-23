@@ -41,6 +41,8 @@ export const CameraTab: React.FC<CameraTabProps> = ({
   isLoggedIn
 }) => {
   const videoRef = useRef<HTMLVideoElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+  
   const [error, setError] = useState<string>('');
   const [isScanning, setIsScanning] = useState<boolean>(false);
   const [isModelLoading, setIsModelLoading] = useState<boolean>(true);
@@ -51,6 +53,20 @@ export const CameraTab: React.FC<CameraTabProps> = ({
   const [detectedConfidence, setDetectedConfidence] = useState<number | null>(null);
   const [captureStatus, setCaptureStatus] = useState<'idle' | 'capturing' | 'success' | 'error'>('idle');
   const [statusMessage, setStatusMessage] = useState<string>('');
+
+  // ROI States
+  const [roiState, setRoiState] = useState<'camera' | 'roi' | 'result'>('camera');
+  const [capturedPhoto, setCapturedPhoto] = useState<string | null>(null);
+  const [roi, setRoi] = useState<{ x: number; y: number; w: number; h: number }>({ x: 25, y: 25, w: 50, h: 50 });
+  const dragStartRef = useRef<{
+    clientX: number;
+    clientY: number;
+    roiX: number;
+    roiY: number;
+    roiW: number;
+    roiH: number;
+    handle: 'move' | 'nw' | 'ne' | 'se' | 'sw';
+  } | null>(null);
 
   // Initialize the classifier singleton
   const classifierRef = useRef<LivePokemonClassifier | null>(null);
@@ -106,8 +122,8 @@ export const CameraTab: React.FC<CameraTabProps> = ({
       }
     };
 
-    // Only start camera if we aren't showing a snapshot
-    if (!detectedPokemon) {
+    // Only start camera if we are in camera state
+    if (roiState === 'camera') {
       startCamera();
     }
 
@@ -116,33 +132,206 @@ export const CameraTab: React.FC<CameraTabProps> = ({
         stream.getTracks().forEach(track => track.stop());
       }
     };
-  }, [detectedPokemon]);
+  }, [roiState]);
 
-  const handleCapture = async () => {
+  // Handle window/document pointer movement for dragging the ROI box
+  useEffect(() => {
+    const handleMove = (e: MouseEvent | TouchEvent) => {
+      if (!dragStartRef.current || !containerRef.current) return;
+
+      const drag = dragStartRef.current;
+      const rect = containerRef.current.getBoundingClientRect();
+      
+      const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
+      const clientY = 'touches' in e ? e.touches[0].clientY : e.clientY;
+
+      const dx = clientX - drag.clientX;
+      const dy = clientY - drag.clientY;
+
+      // Convert layout pixels to percentage of the ROI container
+      const pdx = (dx / rect.width) * 100;
+      const pdy = (dy / rect.height) * 100;
+
+      setRoi((prevRoi) => {
+        let newX = prevRoi.x;
+        let newY = prevRoi.y;
+        let newW = prevRoi.w;
+        let newH = prevRoi.h;
+
+        const minSize = 10; // minimum percentage size for ROI box
+
+        if (drag.handle === 'move') {
+          // Move the entire box
+          newX = Math.max(0, Math.min(100 - drag.roiW, drag.roiX + pdx));
+          newY = Math.max(0, Math.min(100 - drag.roiH, drag.roiY + pdy));
+        } else {
+          // Resize using handle corners
+          if (drag.handle === 'nw') {
+            newX = Math.max(0, Math.min(drag.roiX + drag.roiW - minSize, drag.roiX + pdx));
+            newY = Math.max(0, Math.min(drag.roiY + drag.roiH - minSize, drag.roiY + pdy));
+            newW = drag.roiW - (newX - drag.roiX);
+            newH = drag.roiH - (newY - drag.roiY);
+          } else if (drag.handle === 'ne') {
+            newY = Math.max(0, Math.min(drag.roiY + drag.roiH - minSize, drag.roiY + pdy));
+            newW = Math.max(minSize, Math.min(100 - drag.roiX, drag.roiW + pdx));
+            newH = drag.roiH - (newY - drag.roiY);
+          } else if (drag.handle === 'se') {
+            newW = Math.max(minSize, Math.min(100 - drag.roiX, drag.roiW + pdx));
+            newH = Math.max(minSize, Math.min(100 - drag.roiY, drag.roiH + pdy));
+          } else if (drag.handle === 'sw') {
+            newX = Math.max(0, Math.min(drag.roiX + drag.roiW - minSize, drag.roiX + pdx));
+            newW = drag.roiW - (newX - drag.roiX);
+            newH = Math.max(minSize, Math.min(100 - drag.roiY, drag.roiH + pdy));
+          }
+        }
+
+        return {
+          x: Math.round(newX * 10) / 10,
+          y: Math.round(newY * 10) / 10,
+          w: Math.round(newW * 10) / 10,
+          h: Math.round(newH * 10) / 10
+        };
+      });
+    };
+
+    const handleEnd = () => {
+      dragStartRef.current = null;
+    };
+
+    window.addEventListener('mousemove', handleMove, { passive: true });
+    window.addEventListener('mouseup', handleEnd);
+    window.addEventListener('touchmove', handleMove, { passive: false });
+    window.addEventListener('touchend', handleEnd);
+
+    return () => {
+      window.removeEventListener('mousemove', handleMove);
+      window.removeEventListener('mouseup', handleEnd);
+      window.removeEventListener('touchmove', handleMove);
+      window.removeEventListener('touchend', handleEnd);
+    };
+  }, []);
+
+  const handleDragStart = (e: React.MouseEvent | React.TouchEvent, handle: 'move' | 'nw' | 'ne' | 'se' | 'sw') => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const clientX = 'touches' in e ? e.touches[0].clientX : e.clientX;
+    const clientY = 'touches' in e ? e.touches[0].clientY : e.clientY;
+
+    dragStartRef.current = {
+      clientX,
+      clientY,
+      roiX: roi.x,
+      roiY: roi.y,
+      roiW: roi.w,
+      roiH: roi.h,
+      handle
+    };
+  };
+
+  const handleCapture = () => {
     if (!videoRef.current || isScanning || isModelLoading) return;
-    
+
+    setError('');
+    try {
+      const video = videoRef.current;
+      const videoWidth = video.videoWidth || 640;
+      const videoHeight = video.videoHeight || 480;
+
+      // Crop the raw frame to match the 3:4 aspect ratio of the UI
+      const targetAspectRatio = 3 / 4;
+      const videoAspectRatio = videoWidth / videoHeight;
+
+      let sourceX = 0;
+      let sourceY = 0;
+      let sourceWidth = videoWidth;
+      let sourceHeight = videoHeight;
+
+      if (videoAspectRatio > targetAspectRatio) {
+        // Video is wider, crop the sides
+        sourceWidth = videoHeight * targetAspectRatio;
+        sourceX = (videoWidth - sourceWidth) / 2;
+      } else if (videoAspectRatio < targetAspectRatio) {
+        // Video is taller, crop the top/bottom
+        sourceHeight = videoWidth / targetAspectRatio;
+        sourceY = (videoHeight - sourceHeight) / 2;
+      }
+
+      const canvas = document.createElement('canvas');
+      canvas.width = sourceWidth;
+      canvas.height = sourceHeight;
+
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
+        ctx.drawImage(
+          video,
+          sourceX, sourceY, sourceWidth, sourceHeight,
+          0, 0, sourceWidth, sourceHeight
+        );
+
+        const dataUrl = canvas.toDataURL('image/jpeg');
+        setCapturedPhoto(dataUrl);
+        // Default box: 50% in the middle
+        setRoi({ x: 25, y: 25, w: 50, h: 50 });
+        setRoiState('roi');
+      } else {
+        throw new Error("Could not initialize canvas context for capturing.");
+      }
+    } catch (err) {
+      console.error("Capture failed:", err);
+      setError("Capture failed: " + (err as Error).message);
+    }
+  };
+
+  const handleAnalyzeRegion = async () => {
+    if (!capturedPhoto || isScanning || isModelLoading) return;
+
     setIsScanning(true);
     setError('');
     try {
-      // Pause video to act as a frozen photo snapshot
-      videoRef.current.pause();
+      const img = new Image();
+      img.src = capturedPhoto;
+      await new Promise((resolve, reject) => {
+        img.onload = resolve;
+        img.onerror = reject;
+      });
 
-      // Pass the video element to the classifier model
-      const result = await classifierRef.current!.classify(videoRef.current);
-      console.log(`Classified as ${result.pokemon.name} with ${Math.round(result.confidence * 100)}% confidence`);
-      
-      setDetectedPokemon(result.pokemon);
-      setDetectedConfidence(result.confidence);
-      setCaptureStatus('idle');
-      setStatusMessage('');
+      const canvas = document.createElement('canvas');
+      const cropX = (roi.x / 100) * img.width;
+      const cropY = (roi.y / 100) * img.height;
+      const cropW = (roi.w / 100) * img.width;
+      const cropH = (roi.h / 100) * img.height;
+
+      canvas.width = cropW;
+      canvas.height = cropH;
+
+      const ctx = canvas.getContext('2d');
+      if (ctx) {
+        ctx.drawImage(img, cropX, cropY, cropW, cropH, 0, 0, cropW, cropH);
+
+        const result = await classifierRef.current!.classify(canvas);
+        console.log(`Classified ROI as ${result.pokemon.name} with ${Math.round(result.confidence * 100)}% confidence`);
+
+        setDetectedPokemon(result.pokemon);
+        setDetectedConfidence(result.confidence);
+        setCaptureStatus('idle');
+        setStatusMessage('');
+        setRoiState('result');
+      } else {
+        throw new Error("Could not initialize canvas context for cropping.");
+      }
     } catch (err) {
       console.error("Classification failed:", err);
       setError("Classification failed: " + (err as Error).message);
-      // Resume video feed if classification fails
-      videoRef.current?.play().catch(() => {});
     } finally {
       setIsScanning(false);
     }
+  };
+
+  const handleBackToCamera = () => {
+    setCapturedPhoto(null);
+    setRoiState('camera');
+    setError('');
   };
 
   const handleCapturePokemon = async () => {
@@ -164,10 +353,11 @@ export const CameraTab: React.FC<CameraTabProps> = ({
   const handleScanAgain = () => {
     setDetectedPokemon(null);
     setDetectedConfidence(null);
+    setCapturedPhoto(null);
     setCaptureStatus('idle');
     setStatusMessage('');
     setError('');
-    // The camera useEffect will automatically re-run and re-instantiate getUserMedia
+    setRoiState('camera');
   };
 
   const isAlreadyCaptured = detectedPokemon ? !!capturedMap[detectedPokemon.uuid] : false;
@@ -179,7 +369,7 @@ export const CameraTab: React.FC<CameraTabProps> = ({
         {error ? (
           <div className="camera-error">
             <p>{error}</p>
-            {detectedPokemon && (
+            {(detectedPokemon || roiState === 'roi') && (
               <button className="btn btn-secondary mt-4" onClick={handleScanAgain}>
                 <RotateCcw size={16} /> Reset Camera
               </button>
@@ -187,12 +377,53 @@ export const CameraTab: React.FC<CameraTabProps> = ({
           </div>
         ) : (
           <>
-            <video 
-              ref={videoRef} 
-              autoPlay 
-              playsInline 
-              className="camera-video"
-            />
+            {roiState === 'camera' && (
+              <video 
+                ref={videoRef} 
+                autoPlay 
+                playsInline 
+                className="camera-video"
+              />
+            )}
+
+            {roiState === 'roi' && capturedPhoto && (
+              <div className="roi-container" ref={containerRef}>
+                <img src={capturedPhoto} alt="Captured preview" className="roi-image" />
+                <div 
+                  className="roi-box"
+                  style={{
+                    left: `${roi.x}%`,
+                    top: `${roi.y}%`,
+                    width: `${roi.w}%`,
+                    height: `${roi.h}%`
+                  }}
+                  onMouseDown={(e) => handleDragStart(e, 'move')}
+                  onTouchStart={(e) => handleDragStart(e, 'move')}
+                >
+                  <div className="roi-box-outline" />
+                  <div className="roi-handle nw" onMouseDown={(e) => handleDragStart(e, 'nw')} onTouchStart={(e) => handleDragStart(e, 'nw')} />
+                  <div className="roi-handle ne" onMouseDown={(e) => handleDragStart(e, 'ne')} onTouchStart={(e) => handleDragStart(e, 'ne')} />
+                  <div className="roi-handle se" onMouseDown={(e) => handleDragStart(e, 'se')} onTouchStart={(e) => handleDragStart(e, 'se')} />
+                  <div className="roi-handle sw" onMouseDown={(e) => handleDragStart(e, 'sw')} onTouchStart={(e) => handleDragStart(e, 'sw')} />
+                </div>
+              </div>
+            )}
+
+            {roiState === 'result' && capturedPhoto && (
+              <div className="roi-container result-preview">
+                <img src={capturedPhoto} alt="Captured preview" className="roi-image" />
+                <div 
+                  className="roi-box static"
+                  style={{
+                    left: `${roi.x}%`,
+                    top: `${roi.y}%`,
+                    width: `${roi.w}%`,
+                    height: `${roi.h}%`
+                  }}
+                />
+              </div>
+            )}
+
             {isModelLoading && (
               <div className="camera-overlay loading-overlay">
                 <Loader2 size={48} className="animate-spin text-white mb-4" />
@@ -209,18 +440,42 @@ export const CameraTab: React.FC<CameraTabProps> = ({
         )}
       </div>
 
-      {!detectedPokemon ? (
+      {roiState === 'camera' && (
         <div className="camera-controls">
           <button 
             className="capture-btn" 
             onClick={handleCapture}
             disabled={!!error || isScanning || isModelLoading}
-            aria-label="Take picture and classify"
+            aria-label="Take picture and crop"
           >
-            {isScanning ? <Loader2 size={32} className="animate-spin" /> : <Camera size={32} />}
+            <Camera size={32} />
           </button>
         </div>
-      ) : (
+      )}
+
+      {roiState === 'roi' && (
+        <div className="roi-controls animate-fade-in">
+          <button 
+            className="action-btn scan-again-btn"
+            onClick={handleBackToCamera}
+            disabled={isScanning}
+          >
+            <RotateCcw size={18} />
+            <span>Re-take</span>
+          </button>
+
+          <button 
+            className="action-btn capture-poke-btn"
+            onClick={handleAnalyzeRegion}
+            disabled={isScanning}
+          >
+            <Sparkles size={18} />
+            <span>Analyze Region</span>
+          </button>
+        </div>
+      )}
+
+      {roiState === 'result' && detectedPokemon && (
         <div className="detected-pokemon-panel glass-panel animate-fade-in">
           <div className="detected-header">
             <Sparkles size={20} className="text-yellow-400" />
